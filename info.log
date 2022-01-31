@@ -1,535 +1,137 @@
-2022-01-28 11:35:30,411 INFO :: This massage just shows basic information
-2022-01-28 11:35:30,412 WARNING :: This message is about sommitng you should pay attention to
-2022-01-28 11:35:30,412 ERROR :: This massage help to debug
-2022-01-28 11:35:30,412 INFO :: Hello from the binance connector
-2022-01-28 17:00:14,828 INFO :: Binanace Connection Opened
-2022-01-28 17:00:14,829 INFO :: Binanace Connection Opened
-2022-01-28 17:00:25,785 ERROR :: Binance connection error: 
-2022-01-28 17:00:26,254 ERROR :: error from callback <bound method BinanceFuturesClient.on_close of <connectors.binance_futures.BinanceFuturesClient object at 0x7f21b80cd100>>: on_close() takes 2 positional arguments but 4 were given
-2022-01-28 17:00:26,254 ERROR :: Binance connection error: on_close() takes 2 positional arguments but 4 were given
-2022-01-28 17:06:40,863 INFO :: Binanace Connection Opened
-2022-01-28 17:06:40,864 INFO :: Binanace Connection Opened
-2022-01-28 17:08:41,958 ERROR :: Binance connection error: 
-2022-01-28 17:08:42,431 ERROR :: error from callback <bound method BinanceFuturesClient.on_close of <connectors.binance_futures.BinanceFuturesClient object at 0x7f6dd907bc40>>: on_close() takes 2 positional arguments but 4 were given
-2022-01-28 17:08:42,432 ERROR :: Binance connection error: on_close() takes 2 positional arguments but 4 were given
-2022-01-28 17:08:47,912 ERROR :: Binance connection error: 
-2022-01-28 17:08:47,912 ERROR :: error from callback <bound method BinanceFuturesClient.on_close of <connectors.binance_futures.BinanceFuturesClient object at 0x7f3291db7c10>>: on_close() takes 2 positional arguments but 4 were given
-2022-01-28 17:08:47,918 ERROR :: Binance connection error: on_close() takes 2 positional arguments but 4 were given
-2022-01-28 17:08:48,448 INFO :: Binanace Connection Opened
-2022-01-28 17:08:48,449 ERROR :: error from callback <bound method BinanceFuturesClient.on_open of <connectors.binance_futures.BinanceFuturesClient object at 0x7f3291db7c10>>: 'BinanceFuturesClient' object has no attribute 'id'
-2022-01-28 17:08:48,449 ERROR :: Binance connection error: 'BinanceFuturesClient' object has no attribute 'id'
-2022-01-28 17:09:40,828 INFO :: Binanace Connection Opened
-2022-01-28 17:09:40,828 ERROR :: error from callback <bound method BinanceFuturesClient.on_open of <connectors.binance_futures.BinanceFuturesClient object at 0x7ff30f688640>>: dump() missing 1 required positional argument: 'fp'
-2022-01-28 17:09:40,829 ERROR :: Binance connection error: dump() missing 1 required positional argument: 'fp'
-2022-01-28 17:09:40,829 INFO :: Binanace Connection Opened
-2022-01-28 17:09:40,830 ERROR :: error from callback <bound method BinanceFuturesClient.on_open of <connectors.binance_futures.BinanceFuturesClient object at 0x7ff30f688640>>: dump() missing 1 required positional argument: 'fp'
-2022-01-28 17:09:40,830 ERROR :: Binance connection error: dump() missing 1 required positional argument: 'fp'
-2022-01-28 17:12:58,272 ERROR :: Binance connection error: 
-2022-01-28 17:12:58,577 ERROR :: error from callback <bound method BinanceFuturesClient.on_close of <connectors.binance_futures.BinanceFuturesClient object at 0x7ff30f688640>>: on_close() takes 2 positional arguments but 4 were given
-2022-01-28 17:12:58,578 ERROR :: Binance connection error: on_close() takes 2 positional arguments but 4 were given
-2022-01-28 17:13:06,063 ERROR :: Binance connection error: 
-2022-01-28 17:13:06,063 ERROR :: error from callback <bound method BinanceFuturesClient.on_close of <connectors.binance_futures.BinanceFuturesClient object at 0x7fe9525d6640>>: on_close() takes 2 positional arguments but 4 were given
-2022-01-28 17:13:06,063 ERROR :: Binance connection error: on_close() takes 2 positional arguments but 4 were given
-2022-01-28 17:13:06,327 INFO :: Binanace Connection Opened
-2022-01-28 17:13:06,328 ERROR :: error from callback <bound method BinanceFuturesClient.on_open of <connectors.binance_futures.BinanceFuturesClient object at 0x7fe9525d6640>>: Connection is already closed.
-2022-01-28 17:13:06,328 ERROR :: Binance connection error: Connection is already closed.
-2022-01-28 17:15:14,081 INFO :: Binanace Connection Opened
-2022-01-28 17:15:14,122 INFO :: Binanace Connection Opened
-2022-01-28 17:15:44,967 ERROR :: Binance connection error: 
-2022-01-28 17:15:45,271 ERROR :: error from callback <bound method BinanceFuturesClient.on_close of <connectors.binance_futures.BinanceFuturesClient object at 0x7f6f17b01ca0>>: on_close() takes 2 positional arguments but 4 were given
-2022-01-28 17:15:45,271 ERROR :: Binance connection error: on_close() takes 2 positional arguments but 4 were given
-2022-01-28 17:20:17,513 INFO :: Binanace Connection Opened
-2022-01-28 17:20:17,514 INFO :: Binanace Connection Opened
-2022-01-28 17:20:18,228 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f510ab1fb20>>: 'bidPrice'
-2022-01-28 17:20:18,229 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:20:18,270 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f510ab1fb20>>: 'bidPrice'
-2022-01-28 17:20:18,270 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:20:18,289 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f510ab1fb20>>: 'bidPrice'
-2022-01-28 17:20:18,289 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:20:20,071 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f510ab1fb20>>: 'bidPrice'
-2022-01-28 17:20:20,071 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:20:22,221 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f510ab1fb20>>: 'bidPrice'
-2022-01-28 17:20:22,221 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:20:22,222 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f510ab1fb20>>: 'bidPrice'
-2022-01-28 17:20:22,222 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:20:26,129 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f510ab1fb20>>: 'bidPrice'
-2022-01-28 17:20:26,130 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:20:30,103 ERROR :: Binance connection error: 
-2022-01-28 17:20:30,523 ERROR :: error from callback <bound method BinanceFuturesClient.on_close of <connectors.binance_futures.BinanceFuturesClient object at 0x7f510ab1fb20>>: on_close() takes 2 positional arguments but 4 were given
-2022-01-28 17:20:30,523 ERROR :: Binance connection error: on_close() takes 2 positional arguments but 4 were given
-2022-01-28 17:20:37,085 INFO :: Binanace Connection Opened
-2022-01-28 17:20:37,085 INFO :: Binanace Connection Opened
-2022-01-28 17:20:40,174 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f4bf4656c10>>: 'bidPrice'
-2022-01-28 17:20:40,174 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:20:42,296 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f4bf4656c10>>: 'bidPrice'
-2022-01-28 17:20:42,297 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:20:42,314 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f4bf4656c10>>: 'bidPrice'
-2022-01-28 17:20:42,315 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:20:48,018 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f4bf4656c10>>: 'bidPrice'
-2022-01-28 17:20:48,018 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:20:48,019 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f4bf4656c10>>: 'bidPrice'
-2022-01-28 17:20:48,019 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:20:48,119 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f4bf4656c10>>: 'bidPrice'
-2022-01-28 17:20:48,119 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:20:50,181 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f4bf4656c10>>: 'bidPrice'
-2022-01-28 17:20:50,181 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:20:56,293 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f4bf4656c10>>: 'bidPrice'
-2022-01-28 17:20:56,293 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:20:58,081 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f4bf4656c10>>: 'bidPrice'
-2022-01-28 17:20:58,081 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:21:01,855 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f4bf4656c10>>: 'bidPrice'
-2022-01-28 17:21:01,856 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:21:03,951 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f4bf4656c10>>: 'bidPrice'
-2022-01-28 17:21:03,951 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:21:04,090 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f4bf4656c10>>: 'bidPrice'
-2022-01-28 17:21:04,090 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:21:08,993 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f4bf4656c10>>: 'bidPrice'
-2022-01-28 17:21:08,993 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:21:10,151 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f4bf4656c10>>: 'bidPrice'
-2022-01-28 17:21:10,151 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:21:10,765 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f4bf4656c10>>: 'bidPrice'
-2022-01-28 17:21:10,765 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:21:11,982 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f4bf4656c10>>: 'bidPrice'
-2022-01-28 17:21:11,982 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:21:12,819 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f4bf4656c10>>: 'bidPrice'
-2022-01-28 17:21:12,820 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:21:14,116 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f4bf4656c10>>: 'bidPrice'
-2022-01-28 17:21:14,116 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:21:14,219 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f4bf4656c10>>: 'bidPrice'
-2022-01-28 17:21:14,219 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:21:14,375 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f4bf4656c10>>: 'bidPrice'
-2022-01-28 17:21:14,375 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:21:14,376 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f4bf4656c10>>: 'bidPrice'
-2022-01-28 17:21:14,376 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:21:14,760 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f4bf4656c10>>: 'bidPrice'
-2022-01-28 17:21:14,760 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:21:15,235 ERROR :: Binance connection error: 
-2022-01-28 17:21:15,551 ERROR :: error from callback <bound method BinanceFuturesClient.on_close of <connectors.binance_futures.BinanceFuturesClient object at 0x7f4bf4656c10>>: on_close() takes 2 positional arguments but 4 were given
-2022-01-28 17:21:15,552 ERROR :: Binance connection error: on_close() takes 2 positional arguments but 4 were given
-2022-01-28 17:21:20,426 INFO :: Binanace Connection Opened
-2022-01-28 17:21:20,637 INFO :: Binanace Connection Opened
-2022-01-28 17:21:24,309 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7a1b7bfaf0>>: 'bidPrice'
-2022-01-28 17:21:24,309 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:21:24,309 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7a1b7bfaf0>>: 'bidPrice'
-2022-01-28 17:21:24,309 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:21:25,996 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7a1b7bfaf0>>: 'bidPrice'
-2022-01-28 17:21:25,996 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:21:26,541 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7a1b7bfaf0>>: 'bidPrice'
-2022-01-28 17:21:26,542 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:21:26,549 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7a1b7bfaf0>>: 'bidPrice'
-2022-01-28 17:21:26,549 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:21:26,839 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7a1b7bfaf0>>: 'bidPrice'
-2022-01-28 17:21:26,840 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:21:27,562 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7a1b7bfaf0>>: 'bidPrice'
-2022-01-28 17:21:27,563 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:21:28,178 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7a1b7bfaf0>>: 'bidPrice'
-2022-01-28 17:21:28,179 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:21:28,345 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7a1b7bfaf0>>: 'bidPrice'
-2022-01-28 17:21:28,345 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:21:29,762 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7a1b7bfaf0>>: 'bidPrice'
-2022-01-28 17:21:29,762 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:21:29,861 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7a1b7bfaf0>>: 'bidPrice'
-2022-01-28 17:21:29,861 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:21:30,227 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7a1b7bfaf0>>: 'bidPrice'
-2022-01-28 17:21:30,227 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:21:32,147 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7a1b7bfaf0>>: 'bidPrice'
-2022-01-28 17:21:32,147 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:21:33,816 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7a1b7bfaf0>>: 'bidPrice'
-2022-01-28 17:21:33,816 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:21:33,910 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7a1b7bfaf0>>: 'bidPrice'
-2022-01-28 17:21:33,910 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:21:36,164 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7a1b7bfaf0>>: 'bidPrice'
-2022-01-28 17:21:36,164 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:21:38,829 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7a1b7bfaf0>>: 'bidPrice'
-2022-01-28 17:21:38,829 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:21:42,312 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7a1b7bfaf0>>: 'bidPrice'
-2022-01-28 17:21:42,312 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:21:42,313 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7a1b7bfaf0>>: 'bidPrice'
-2022-01-28 17:21:42,313 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:21:42,314 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7a1b7bfaf0>>: 'bidPrice'
-2022-01-28 17:21:42,314 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:21:42,315 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7a1b7bfaf0>>: 'bidPrice'
-2022-01-28 17:21:42,315 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:21:43,947 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7a1b7bfaf0>>: 'bidPrice'
-2022-01-28 17:21:43,947 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:21:47,797 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7a1b7bfaf0>>: 'bidPrice'
-2022-01-28 17:21:47,797 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:21:47,873 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7a1b7bfaf0>>: 'bidPrice'
-2022-01-28 17:21:47,873 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:21:48,382 ERROR :: Binance connection error: 
-2022-01-28 17:21:48,641 ERROR :: error from callback <bound method BinanceFuturesClient.on_close of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7a1b7bfaf0>>: on_close() takes 2 positional arguments but 4 were given
-2022-01-28 17:21:48,642 ERROR :: Binance connection error: on_close() takes 2 positional arguments but 4 were given
-2022-01-28 17:21:58,393 INFO :: Binanace Connection Opened
-2022-01-28 17:21:58,394 INFO :: Binanace Connection Opened
-2022-01-28 17:22:00,233 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:22:00,233 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:22:00,235 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:22:00,235 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:22:01,051 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:22:01,051 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:22:02,484 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:22:02,484 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:22:05,662 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:22:05,662 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:22:06,276 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:22:06,277 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:22:06,277 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:22:06,277 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:22:06,278 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:22:06,278 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:22:07,814 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:22:07,814 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:22:07,914 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:22:07,914 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:22:07,967 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:22:07,968 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:22:08,408 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:22:08,408 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:22:08,732 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:22:08,732 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:22:08,800 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:22:08,801 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:22:09,163 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:22:09,163 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:22:09,196 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:22:09,196 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:22:09,553 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:22:09,554 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:22:09,636 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:22:09,637 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:22:10,165 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:22:10,166 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:22:10,167 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:22:10,167 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:22:10,176 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:22:10,176 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:22:11,199 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:22:11,199 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:22:13,188 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:22:13,188 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:22:13,358 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:22:13,358 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:22:13,650 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:22:13,651 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:22:13,651 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:22:13,651 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:22:13,927 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:22:13,927 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:22:13,986 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:22:13,986 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:22:14,037 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:22:14,038 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:22:15,895 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:22:15,896 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:22:17,906 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:22:17,907 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:22:18,974 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:22:18,974 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:22:20,202 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:22:20,202 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:22:20,203 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:22:20,203 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:22:20,288 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:22:20,288 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:22:21,921 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:22:21,921 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:22:21,937 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:22:21,938 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:22:22,354 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:22:22,354 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:22:23,391 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:22:23,391 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:22:24,192 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:22:24,192 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:22:24,200 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:22:24,200 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:22:24,619 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:22:24,619 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:22:25,372 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:22:25,372 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:22:25,769 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:22:25,769 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:22:25,880 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:22:25,881 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:22:26,243 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:22:26,244 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:22:27,268 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:22:27,269 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:22:27,649 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:22:27,650 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:22:28,140 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:22:28,140 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:22:28,150 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:22:28,150 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:22:28,833 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:22:28,833 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:22:28,923 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:22:28,924 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:22:30,206 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:22:30,207 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:22:30,315 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:22:30,316 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:22:30,751 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:22:30,751 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:22:34,442 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:22:34,442 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:22:34,443 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:22:34,444 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:22:34,444 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:22:34,445 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:22:34,445 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:22:34,446 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:22:34,536 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:22:34,536 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:22:34,572 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:22:34,572 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:22:34,572 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:22:34,572 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:22:34,689 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:22:34,689 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:22:34,949 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:22:34,949 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:22:35,140 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:22:35,141 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:22:35,148 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:22:35,149 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:22:36,084 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:22:36,084 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:22:36,085 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:22:36,085 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:22:36,114 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:22:36,114 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:22:36,115 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:22:36,116 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:22:36,574 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:22:36,574 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:22:36,875 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:22:36,875 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:22:36,977 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:22:36,977 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:22:37,036 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:22:37,036 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:22:37,289 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:22:37,290 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:22:37,362 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:22:37,363 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:22:37,365 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:22:37,365 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:22:38,227 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:22:38,228 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:22:38,229 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:22:38,229 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:22:38,330 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:22:38,330 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:22:38,343 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:22:38,343 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:22:40,172 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:22:40,173 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:22:40,173 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:22:40,173 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:22:42,106 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:22:42,106 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:22:42,281 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:22:42,281 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:22:42,293 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:22:42,293 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:22:43,877 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:22:43,877 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:22:44,299 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:22:44,299 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:22:46,214 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:22:46,214 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:22:46,215 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:22:46,215 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:22:46,731 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:22:46,732 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:22:47,919 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:22:47,919 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:22:47,933 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:22:47,934 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:22:48,951 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:22:48,951 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:22:50,106 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:22:50,106 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:22:52,338 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:22:52,339 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:22:53,328 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:22:53,329 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:22:54,054 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:22:54,054 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:22:55,702 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:22:55,702 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:22:56,119 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:22:56,119 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:22:58,077 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:22:58,078 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:22:58,078 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:22:58,078 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:22:58,079 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:22:58,079 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:22:59,232 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:22:59,232 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:23:00,164 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:23:00,164 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:23:00,165 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:23:00,166 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:23:02,195 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:23:02,196 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:23:04,165 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:23:04,166 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:23:04,208 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:23:04,208 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:23:05,998 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:23:05,998 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:23:07,350 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:23:07,351 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:23:08,091 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:23:08,092 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:23:10,368 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:23:10,369 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:23:12,125 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:23:12,125 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:23:12,126 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:23:12,126 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:23:14,209 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:23:14,209 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:23:14,264 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:23:14,264 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:23:15,891 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:23:15,891 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:23:16,221 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:23:16,222 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:23:16,691 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:23:16,691 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:23:16,748 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:23:16,748 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:23:18,215 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: 'bidPrice'
-2022-01-28 17:23:18,215 ERROR :: Binance connection error: 'bidPrice'
-2022-01-28 17:23:18,678 ERROR :: Binance connection error: 
-2022-01-28 17:23:18,968 ERROR :: error from callback <bound method BinanceFuturesClient.on_close of <connectors.binance_futures.BinanceFuturesClient object at 0x7f7bbb4c9550>>: on_close() takes 2 positional arguments but 4 were given
-2022-01-28 17:23:18,968 ERROR :: Binance connection error: on_close() takes 2 positional arguments but 4 were given
-2022-01-28 17:23:22,986 INFO :: Binanace Connection Opened
-2022-01-28 17:23:22,987 INFO :: Binanace Connection Opened
-2022-01-28 17:23:23,702 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f9f53798550>>: 'dict' object is not callable
-2022-01-28 17:23:23,703 ERROR :: Binance connection error: 'dict' object is not callable
-2022-01-28 17:23:24,053 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f9f53798550>>: 'dict' object is not callable
-2022-01-28 17:23:24,053 ERROR :: Binance connection error: 'dict' object is not callable
-2022-01-28 17:23:26,261 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f9f53798550>>: 'dict' object is not callable
-2022-01-28 17:23:26,261 ERROR :: Binance connection error: 'dict' object is not callable
-2022-01-28 17:23:26,263 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f9f53798550>>: 'dict' object is not callable
-2022-01-28 17:23:26,263 ERROR :: Binance connection error: 'dict' object is not callable
-2022-01-28 17:23:26,771 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f9f53798550>>: 'dict' object is not callable
-2022-01-28 17:23:26,771 ERROR :: Binance connection error: 'dict' object is not callable
-2022-01-28 17:23:27,229 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f9f53798550>>: 'dict' object is not callable
-2022-01-28 17:23:27,230 ERROR :: Binance connection error: 'dict' object is not callable
-2022-01-28 17:23:27,611 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f9f53798550>>: 'dict' object is not callable
-2022-01-28 17:23:27,612 ERROR :: Binance connection error: 'dict' object is not callable
-2022-01-28 17:23:28,251 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f9f53798550>>: 'dict' object is not callable
-2022-01-28 17:23:28,251 ERROR :: Binance connection error: 'dict' object is not callable
-2022-01-28 17:23:28,367 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f9f53798550>>: 'dict' object is not callable
-2022-01-28 17:23:28,367 ERROR :: Binance connection error: 'dict' object is not callable
-2022-01-28 17:23:28,382 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f9f53798550>>: 'dict' object is not callable
-2022-01-28 17:23:28,382 ERROR :: Binance connection error: 'dict' object is not callable
-2022-01-28 17:23:29,843 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f9f53798550>>: 'dict' object is not callable
-2022-01-28 17:23:29,843 ERROR :: Binance connection error: 'dict' object is not callable
-2022-01-28 17:23:30,253 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f9f53798550>>: 'dict' object is not callable
-2022-01-28 17:23:30,253 ERROR :: Binance connection error: 'dict' object is not callable
-2022-01-28 17:23:32,286 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f9f53798550>>: 'dict' object is not callable
-2022-01-28 17:23:32,286 ERROR :: Binance connection error: 'dict' object is not callable
-2022-01-28 17:23:32,663 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f9f53798550>>: 'dict' object is not callable
-2022-01-28 17:23:32,663 ERROR :: Binance connection error: 'dict' object is not callable
-2022-01-28 17:23:36,200 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f9f53798550>>: 'dict' object is not callable
-2022-01-28 17:23:36,200 ERROR :: Binance connection error: 'dict' object is not callable
-2022-01-28 17:23:36,538 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f9f53798550>>: 'dict' object is not callable
-2022-01-28 17:23:36,539 ERROR :: Binance connection error: 'dict' object is not callable
-2022-01-28 17:23:38,027 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f9f53798550>>: 'dict' object is not callable
-2022-01-28 17:23:38,028 ERROR :: Binance connection error: 'dict' object is not callable
-2022-01-28 17:23:38,756 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f9f53798550>>: 'dict' object is not callable
-2022-01-28 17:23:38,762 ERROR :: Binance connection error: 'dict' object is not callable
-2022-01-28 17:23:40,186 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f9f53798550>>: 'dict' object is not callable
-2022-01-28 17:23:40,187 ERROR :: Binance connection error: 'dict' object is not callable
-2022-01-28 17:23:40,801 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f9f53798550>>: 'dict' object is not callable
-2022-01-28 17:23:40,801 ERROR :: Binance connection error: 'dict' object is not callable
-2022-01-28 17:23:42,234 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f9f53798550>>: 'dict' object is not callable
-2022-01-28 17:23:42,234 ERROR :: Binance connection error: 'dict' object is not callable
-2022-01-28 17:23:42,317 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f9f53798550>>: 'dict' object is not callable
-2022-01-28 17:23:42,317 ERROR :: Binance connection error: 'dict' object is not callable
-2022-01-28 17:23:42,326 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f9f53798550>>: 'dict' object is not callable
-2022-01-28 17:23:42,327 ERROR :: Binance connection error: 'dict' object is not callable
-2022-01-28 17:23:43,933 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f9f53798550>>: 'dict' object is not callable
-2022-01-28 17:23:43,933 ERROR :: Binance connection error: 'dict' object is not callable
-2022-01-28 17:23:46,065 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f9f53798550>>: 'dict' object is not callable
-2022-01-28 17:23:46,065 ERROR :: Binance connection error: 'dict' object is not callable
-2022-01-28 17:23:46,177 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f9f53798550>>: 'dict' object is not callable
-2022-01-28 17:23:46,178 ERROR :: Binance connection error: 'dict' object is not callable
-2022-01-28 17:23:47,788 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f9f53798550>>: 'dict' object is not callable
-2022-01-28 17:23:47,788 ERROR :: Binance connection error: 'dict' object is not callable
-2022-01-28 17:23:47,925 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f9f53798550>>: 'dict' object is not callable
-2022-01-28 17:23:47,925 ERROR :: Binance connection error: 'dict' object is not callable
-2022-01-28 17:23:50,081 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f9f53798550>>: 'dict' object is not callable
-2022-01-28 17:23:50,081 ERROR :: Binance connection error: 'dict' object is not callable
-2022-01-28 17:23:50,086 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f9f53798550>>: 'dict' object is not callable
-2022-01-28 17:23:50,086 ERROR :: Binance connection error: 'dict' object is not callable
-2022-01-28 17:23:50,183 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f9f53798550>>: 'dict' object is not callable
-2022-01-28 17:23:50,184 ERROR :: Binance connection error: 'dict' object is not callable
-2022-01-28 17:23:52,685 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f9f53798550>>: 'dict' object is not callable
-2022-01-28 17:23:52,685 ERROR :: Binance connection error: 'dict' object is not callable
-2022-01-28 17:23:56,289 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f9f53798550>>: 'dict' object is not callable
-2022-01-28 17:23:56,290 ERROR :: Binance connection error: 'dict' object is not callable
-2022-01-28 17:24:00,260 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f9f53798550>>: 'dict' object is not callable
-2022-01-28 17:24:00,260 ERROR :: Binance connection error: 'dict' object is not callable
-2022-01-28 17:24:01,999 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f9f53798550>>: 'dict' object is not callable
-2022-01-28 17:24:02,000 ERROR :: Binance connection error: 'dict' object is not callable
-2022-01-28 17:24:02,001 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f9f53798550>>: 'dict' object is not callable
-2022-01-28 17:24:02,001 ERROR :: Binance connection error: 'dict' object is not callable
-2022-01-28 17:24:04,087 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f9f53798550>>: 'dict' object is not callable
-2022-01-28 17:24:04,087 ERROR :: Binance connection error: 'dict' object is not callable
-2022-01-28 17:24:05,893 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f9f53798550>>: 'dict' object is not callable
-2022-01-28 17:24:05,893 ERROR :: Binance connection error: 'dict' object is not callable
-2022-01-28 17:24:05,903 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f9f53798550>>: 'dict' object is not callable
-2022-01-28 17:24:05,903 ERROR :: Binance connection error: 'dict' object is not callable
-2022-01-28 17:24:06,816 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f9f53798550>>: 'dict' object is not callable
-2022-01-28 17:24:06,817 ERROR :: Binance connection error: 'dict' object is not callable
-2022-01-28 17:24:08,156 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f9f53798550>>: 'dict' object is not callable
-2022-01-28 17:24:08,157 ERROR :: Binance connection error: 'dict' object is not callable
-2022-01-28 17:24:08,819 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f9f53798550>>: 'dict' object is not callable
-2022-01-28 17:24:08,819 ERROR :: Binance connection error: 'dict' object is not callable
-2022-01-28 17:24:10,296 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f9f53798550>>: 'dict' object is not callable
-2022-01-28 17:24:10,296 ERROR :: Binance connection error: 'dict' object is not callable
-2022-01-28 17:24:11,431 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f9f53798550>>: 'dict' object is not callable
-2022-01-28 17:24:11,431 ERROR :: Binance connection error: 'dict' object is not callable
-2022-01-28 17:24:11,833 ERROR :: Binance connection error: 
-2022-01-28 17:24:12,094 ERROR :: error from callback <bound method BinanceFuturesClient.on_close of <connectors.binance_futures.BinanceFuturesClient object at 0x7f9f53798550>>: on_close() takes 2 positional arguments but 4 were given
-2022-01-28 17:24:12,094 ERROR :: Binance connection error: on_close() takes 2 positional arguments but 4 were given
-2022-01-28 17:24:17,163 INFO :: Binanace Connection Opened
-2022-01-28 17:24:17,164 INFO :: Binanace Connection Opened
-2022-01-28 17:24:18,140 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f6e451be550>>: 'dict' object is not callable
-2022-01-28 17:24:18,140 ERROR :: Binance connection error: 'dict' object is not callable
-2022-01-28 17:24:20,130 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f6e451be550>>: 'dict' object is not callable
-2022-01-28 17:24:20,131 ERROR :: Binance connection error: 'dict' object is not callable
-2022-01-28 17:24:22,278 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f6e451be550>>: 'dict' object is not callable
-2022-01-28 17:24:22,279 ERROR :: Binance connection error: 'dict' object is not callable
-2022-01-28 17:24:22,280 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f6e451be550>>: 'dict' object is not callable
-2022-01-28 17:24:22,280 ERROR :: Binance connection error: 'dict' object is not callable
-2022-01-28 17:24:22,281 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f6e451be550>>: 'dict' object is not callable
-2022-01-28 17:24:22,281 ERROR :: Binance connection error: 'dict' object is not callable
-2022-01-28 17:24:22,281 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x7f6e451be550>>: 'dict' object is not callable
-2022-01-28 17:24:22,282 ERROR :: Binance connection error: 'dict' object is not callable
-2022-01-28 17:24:27,369 ERROR :: Binance connection error: 
-2022-01-28 17:24:27,712 ERROR :: error from callback <bound method BinanceFuturesClient.on_close of <connectors.binance_futures.BinanceFuturesClient object at 0x7f6e451be550>>: on_close() takes 2 positional arguments but 4 were given
-2022-01-28 17:24:27,712 ERROR :: Binance connection error: on_close() takes 2 positional arguments but 4 were given
-2022-01-28 17:25:12,066 INFO :: Binanace Connection Opened
-2022-01-28 17:25:12,066 INFO :: Binanace Connection Opened
-2022-01-28 17:25:34,959 ERROR :: Binance connection error: 
-2022-01-28 17:25:35,266 ERROR :: error from callback <bound method BinanceFuturesClient.on_close of <connectors.binance_futures.BinanceFuturesClient object at 0x7f4970bcc550>>: on_close() takes 2 positional arguments but 4 were given
-2022-01-28 17:25:35,266 ERROR :: Binance connection error: on_close() takes 2 positional arguments but 4 were given
-2022-01-28 17:25:39,416 INFO :: Binanace Connection Opened
-2022-01-28 17:25:39,430 INFO :: Binanace Connection Opened
-2022-01-28 17:26:01,789 ERROR :: Binance connection error: 
-2022-01-28 17:26:02,315 ERROR :: error from callback <bound method BinanceFuturesClient.on_close of <connectors.binance_futures.BinanceFuturesClient object at 0x7f9175208550>>: on_close() takes 2 positional arguments but 4 were given
-2022-01-28 17:26:02,315 ERROR :: Binance connection error: on_close() takes 2 positional arguments but 4 were given
-2022-01-28 17:26:05,183 INFO :: Binanace Connection Opened
-2022-01-28 17:26:05,186 INFO :: Binanace Connection Opened
-2022-01-28 17:49:58,654 ERROR :: Binance connection error: 
-2022-01-28 17:49:58,936 ERROR :: error from callback <bound method BinanceFuturesClient.on_close of <connectors.binance_futures.BinanceFuturesClient object at 0x7f16eac46550>>: on_close() takes 2 positional arguments but 4 were given
-2022-01-28 17:49:58,936 ERROR :: Binance connection error: on_close() takes 2 positional arguments but 4 were given
+2022-01-31 18:37:12,082 INFO :: Binance connection opened
+2022-01-31 18:37:15,681 INFO :: Binance connection opened
+2022-01-31 18:37:25,762 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-31 18:37:27,161 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-01-31 18:37:27,183 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-31 18:37:27,830 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1643636247178&signature=c77772d38bcc6cd2bef02bcd2116fb864f38b93cca58b85b9ca105be60505ae9 HTTP/1.1" 200 None
+2022-01-31 18:37:27,838 INFO :: Binance Futures Client successfully initialized
+2022-01-31 18:37:27,844 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-01-31 18:37:28,604 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2022-01-31 18:37:28,610 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-01-31 18:37:28,910 INFO :: Binance connection opened
+2022-01-31 18:37:29,311 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2022-01-31 18:37:29,313 INFO :: Bitmex Client successfully initialized
+2022-01-31 18:37:30,388 INFO :: Bitmex connection opened
+2022-01-31 18:37:32,598 INFO :: Binance connection opened
+2022-01-31 18:37:36,265 INFO :: Binance connection opened
+2022-01-31 18:37:40,050 INFO :: Binance connection opened
+2022-01-31 18:37:43,941 INFO :: Binance connection opened
+2022-01-31 18:37:47,754 INFO :: Binance connection opened
+2022-01-31 18:37:51,434 INFO :: Binance connection opened
+2022-01-31 18:37:55,417 INFO :: Binance connection opened
+2022-01-31 18:38:04,767 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-31 18:38:05,581 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-01-31 18:38:05,591 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-31 18:38:06,851 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1643636285589&signature=7743a9f4db2f3247de69722dad61ae5bfc9a3d34cffa2ff6be0d1f5765fda95a HTTP/1.1" 200 None
+2022-01-31 18:38:06,857 INFO :: Binance Futures Client successfully initialized
+2022-01-31 18:38:06,859 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-01-31 18:38:07,806 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2022-01-31 18:38:07,813 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-01-31 18:38:08,078 INFO :: Binance connection opened
+2022-01-31 18:38:08,497 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2022-01-31 18:38:08,504 INFO :: Bitmex Client successfully initialized
+2022-01-31 18:38:09,524 INFO :: Bitmex connection opened
+2022-01-31 18:38:11,693 INFO :: Binance connection opened
+2022-01-31 18:51:13,402 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-31 18:51:14,817 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-01-31 18:51:14,830 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-31 18:51:15,916 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1643637074827&signature=50deedd994d3f0e0d9c48f616a2efe2a838ac84a5e16166c5181c9b23c298af2 HTTP/1.1" 200 None
+2022-01-31 18:51:15,919 INFO :: Binance Futures Client successfully initialized
+2022-01-31 18:51:15,922 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-01-31 18:51:16,535 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2022-01-31 18:51:16,542 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-01-31 18:51:17,097 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2022-01-31 18:51:17,099 INFO :: Bitmex Client successfully initialized
+2022-01-31 18:51:17,384 INFO :: Binance connection opened
+2022-01-31 18:51:17,962 INFO :: Bitmex connection opened
+2022-01-31 18:51:20,753 INFO :: Binance connection opened
+2022-01-31 18:51:24,159 INFO :: Binance connection opened
+2022-01-31 18:51:27,643 INFO :: Binance connection opened
+2022-01-31 18:51:27,996 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-31 18:51:29,190 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/ticker/bookTicker?symbol=BTCUSDT HTTP/1.1" 200 None
+2022-01-31 18:51:31,351 INFO :: Binance connection opened
+2022-01-31 18:51:32,193 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-31 18:51:33,170 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/ticker/bookTicker?symbol=ETHUSDT HTTP/1.1" 200 None
+2022-01-31 18:51:35,116 INFO :: Binance connection opened
+2022-01-31 18:51:37,688 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-31 18:51:38,700 INFO :: Binance connection opened
+2022-01-31 18:51:38,771 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/ticker/bookTicker?symbol=DOGEUSDT HTTP/1.1" 200 None
+2022-01-31 18:51:42,799 INFO :: Binance connection opened
+2022-01-31 18:51:46,336 INFO :: Binance connection opened
+2022-01-31 18:51:50,164 INFO :: Binance connection opened
+2022-01-31 18:51:54,128 INFO :: Binance connection opened
+2022-01-31 18:51:58,055 INFO :: Binance connection opened
+2022-01-31 18:52:02,233 INFO :: Binance connection opened
+2022-01-31 18:52:05,363 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-31 18:52:05,982 INFO :: Binance connection opened
+2022-01-31 18:52:06,688 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/klines?symbol=BTCUSDT&interval=1m&limit=1000 HTTP/1.1" 200 None
+2022-01-31 18:52:09,931 INFO :: Binance connection opened
+2022-01-31 18:52:14,137 INFO :: Binance connection opened
+2022-01-31 18:52:18,130 INFO :: Binance connection opened
+2022-01-31 18:52:22,222 INFO :: Binance connection opened
+2022-01-31 18:52:26,056 INFO :: Binance connection opened
+2022-01-31 18:52:30,005 INFO :: Binance connection opened
+2022-01-31 18:52:33,613 INFO :: Binance connection opened
+2022-01-31 18:52:37,379 INFO :: Binance connection opened
+2022-01-31 18:52:41,266 INFO :: Binance connection opened
+2022-01-31 18:52:45,221 INFO :: Binance connection opened
+2022-01-31 18:52:48,780 INFO :: Binance connection opened
+2022-01-31 18:52:52,345 INFO :: Binance connection opened
+2022-01-31 18:52:55,700 INFO :: Binance connection opened
+2022-01-31 18:52:59,804 INFO :: Binance connection opened
+2022-01-31 18:53:03,590 INFO :: Binance connection opened
+2022-01-31 18:53:07,207 INFO :: Binance connection opened
+2022-01-31 18:53:11,270 INFO :: Binance connection opened
+2022-01-31 18:53:14,744 INFO :: Binance connection opened
+2022-01-31 18:53:18,653 INFO :: Binance connection opened
+2022-01-31 18:53:22,739 INFO :: Binance connection opened
+2022-01-31 18:53:26,324 INFO :: Binance connection opened
+2022-01-31 18:53:30,170 INFO :: Binance connection opened
+2022-01-31 18:53:34,169 INFO :: Binance connection opened
+2022-01-31 18:53:37,918 INFO :: Binance connection opened
+2022-01-31 18:53:42,091 INFO :: Binance connection opened
+2022-01-31 18:53:46,085 INFO :: Binance connection opened
+2022-01-31 18:53:49,767 INFO :: Binance connection opened
+2022-01-31 18:53:53,766 INFO :: Binance connection opened
+2022-01-31 18:53:57,658 INFO :: Binance connection opened
+2022-01-31 18:54:01,654 INFO :: Binance connection opened
+2022-01-31 18:54:05,410 INFO :: Binance connection opened
+2022-01-31 18:54:09,640 INFO :: Binance connection opened
+2022-01-31 18:54:13,426 INFO :: Binance connection opened
+2022-01-31 18:54:17,187 INFO :: Binance connection opened
+2022-01-31 18:54:21,314 INFO :: Binance connection opened
+2022-01-31 18:54:25,100 INFO :: Binance connection opened
+2022-01-31 18:54:28,742 INFO :: Binance connection opened
+2022-01-31 18:54:32,474 INFO :: Binance connection opened
+2022-01-31 18:54:36,030 INFO :: Binance connection opened
+2022-01-31 18:54:39,845 INFO :: Binance connection opened
+2022-01-31 18:54:43,520 INFO :: Binance connection opened
+2022-01-31 18:54:47,012 INFO :: Binance connection opened
+2022-01-31 18:54:51,211 INFO :: Binance connection opened
+2022-01-31 18:54:54,957 INFO :: Binance connection opened
+2022-01-31 18:54:58,436 INFO :: Binance connection opened
+2022-01-31 18:55:02,379 INFO :: Binance connection opened
+2022-01-31 18:55:06,229 INFO :: Binance connection opened
+2022-01-31 18:55:09,950 INFO :: Binance connection opened
+2022-01-31 18:55:13,944 INFO :: Binance connection opened
+2022-01-31 18:55:17,834 INFO :: Binance connection opened
+2022-01-31 18:55:21,623 INFO :: Binance connection opened
+2022-01-31 18:55:25,129 INFO :: Binance connection opened
+2022-01-31 18:55:29,107 INFO :: Binance connection opened
+2022-01-31 18:55:32,813 INFO :: Binance connection opened
+2022-01-31 18:55:36,675 INFO :: Binance connection opened
+2022-01-31 18:55:40,333 INFO :: Binance connection opened
+2022-01-31 18:55:43,872 INFO :: Binance connection opened
+2022-01-31 18:55:47,668 INFO :: Binance connection opened
+2022-01-31 18:55:51,824 INFO :: Binance connection opened
+2022-01-31 18:55:55,927 INFO :: Binance connection opened
+2022-01-31 18:55:59,920 INFO :: Binance connection opened
+2022-01-31 18:56:03,918 INFO :: Binance connection opened
+2022-01-31 18:56:07,711 INFO :: Binance connection opened
+2022-01-31 18:56:11,505 INFO :: Binance connection opened
+2022-01-31 18:56:15,484 INFO :: Binance connection opened
+2022-01-31 18:56:19,515 INFO :: Binance connection opened
+2022-01-31 18:56:23,675 INFO :: Binance connection opened
+2022-01-31 18:56:27,463 INFO :: Binance connection opened
+2022-01-31 18:56:31,355 INFO :: Binance connection opened
+2022-01-31 18:56:31,701 DEBUG :: close status: 3003
