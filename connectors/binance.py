@@ -361,11 +361,8 @@ class BinanceClient:
         :return:
         """
 
-        self.ws = websocket.WebSocketApp(self._wss_url,
-                                         on_message= self._on_message,
-                                         on_error= self._on_error,
-                                         on_close= self._on_close,
-                                         on_open= self._on_open)
+        self.ws = websocket.WebSocketApp(self._wss_url, on_open=self._on_open, on_close=self._on_close,
+                                         on_error=self._on_error, on_message=self._on_message)
 
         while True:
             try:
@@ -385,7 +382,7 @@ class BinanceClient:
         self.subscribe_channel(list(self.contracts.values()), "bookTicker")
         # self.subscribe_channel(list(self.contracts.values()), "aggTrade")
 
-    def _on_close(self, ws, *args):
+    def _on_close(self, ws):
 
         """
         Callback method triggered when the connection drops

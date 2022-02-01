@@ -8,20 +8,19 @@ from interface.styling import *
 from interface.scrollable_frame import ScrollableFrame
 
 from connectors.binance import BinanceClient
-from connectors.bitmex import BitmexClient
+# from connectors.bitmex import BitmexClient
 
 from strategies import TechnicalStrategy, BreakoutStrategy
 from utils import *
 
 from database import WorkspaceData
 
-
 if typing.TYPE_CHECKING:
     from interface.root_component import Root
 
 
 class StrategyEditor(tk.Frame):
-    def __init__(self, root: "Root", binance: BinanceClient, bitmex: BitmexClient, *args, **kwargs):
+    def __init__(self, root: "Root", binance: BinanceClient, *args, **kwargs):
         super().__init__(*args, **kwargs)
 
         self.root = root
@@ -31,7 +30,7 @@ class StrategyEditor(tk.Frame):
         self._valid_integer = self.register(check_integer_format)
         self._valid_float = self.register(check_float_format)
 
-        self._exchanges = {"Binance": binance, "Bitmex": bitmex}
+        self._exchanges = {"Binance": binance}
 
         self._all_contracts = []
         self._all_timeframes = ["1m", "5m", "15m", "30m", "1h", "4h"]
@@ -74,7 +73,7 @@ class StrategyEditor(tk.Frame):
             {"code_name": "parameters", "widget": tk.Button, "data_type": float, "text": "Parameters",
              "bg": BG_COLOR_2, "command": self._show_popup, "header": "", "width": 10},
             {"code_name": "activation", "widget": tk.Button, "data_type": float, "text": "OFF",
-             "bg": "darkred", "command": self._switch_strategy, "header": "", "width" : 8},
+             "bg": "darkred", "command": self._switch_strategy, "header": "", "width": 8},
             {"code_name": "delete", "widget": tk.Button, "data_type": float, "text": "X",
              "bg": "darkred", "command": self._delete_row, "header": "", "width": 6},
 
@@ -143,14 +142,18 @@ class StrategyEditor(tk.Frame):
                                                                  font=GLOBAL_FONT, bd=1, width=base_param['width'])
 
                 if base_param['data_type'] == int:
-                    self.body_widgets[code_name][b_index].config(validate='key', validatecommand=(self._valid_integer, "%P"))
+                    self.body_widgets[code_name][b_index].config(validate='key',
+                                                                 validatecommand=(self._valid_integer, "%P"))
                 elif base_param['data_type'] == float:
-                    self.body_widgets[code_name][b_index].config(validate='key', validatecommand=(self._valid_float, "%P"))
+                    self.body_widgets[code_name][b_index].config(validate='key',
+                                                                 validatecommand=(self._valid_float, "%P"))
 
             elif base_param['widget'] == tk.Button:
                 self.body_widgets[code_name][b_index] = tk.Button(self._body_frame.sub_frame, text=base_param['text'],
-                                        bg=base_param['bg'], fg=FG_COLOR, font=GLOBAL_FONT, width=base_param['width'],
-                                        command=lambda frozen_command=base_param['command']: frozen_command(b_index))
+                                                                  bg=base_param['bg'], fg=FG_COLOR, font=GLOBAL_FONT,
+                                                                  width=base_param['width'],
+                                                                  command=lambda frozen_command=base_param[
+                                                                      'command']: frozen_command(b_index))
             else:
                 continue
 
@@ -210,7 +213,8 @@ class StrategyEditor(tk.Frame):
             temp_label.grid(row=row_nb, column=0)
 
             if param['widget'] == tk.Entry:
-                self._extra_input[code_name] = tk.Entry(self._popup_window, bg=BG_COLOR_2, justify=tk.CENTER, fg=FG_COLOR,
+                self._extra_input[code_name] = tk.Entry(self._popup_window, bg=BG_COLOR_2, justify=tk.CENTER,
+                                                        fg=FG_COLOR,
                                                         insertbackground=FG_COLOR, highlightthickness=False)
 
                 # Sets the data validation function based on the data_type chosen
@@ -286,7 +290,6 @@ class StrategyEditor(tk.Frame):
         stop_loss = float(self.body_widgets['stop_loss'][b_index].get())
 
         if self.body_widgets['activation'][b_index].cget("text") == "OFF":
-
             if strat_selected == "Technical":
                 new_strategy = TechnicalStrategy(self._exchanges[exchange], contract, exchange, timeframe, balance_pct,
                                                  take_profit, stop_loss, self.additional_parameters[b_index])
@@ -306,7 +309,6 @@ class StrategyEditor(tk.Frame):
                 return
 
             self._exchanges[exchange].strategies[b_index] = new_strategy
-
             for param in self._base_params:
                 code_name = param['code_name']
 
@@ -355,6 +357,3 @@ class StrategyEditor(tk.Frame):
             for param, value in extra_params.items():
                 if value is not None:
                     self.additional_parameters[b_index][param] = value
-
-
-

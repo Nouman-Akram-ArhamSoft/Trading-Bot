@@ -3,7 +3,7 @@ from tkinter.messagebox import askquestion
 import logging
 import json
 
-from connectors.bitmex import BitmexClient
+# from connectors.bitmex import BitmexClient
 from connectors.binance import BinanceClient
 
 from interface.styling import *
@@ -17,11 +17,10 @@ logger = logging.getLogger()  # This will be the same logger object as the one c
 
 
 class Root(tk.Tk):
-    def __init__(self, binance: BinanceClient, bitmex: BitmexClient):
+    def __init__(self, binance: BinanceClient):
         super().__init__()
 
         self.binance = binance
-        self.bitmex = bitmex
 
         self.title("Trading Bot")
         self.protocol("WM_DELETE_WINDOW", self._ask_before_close)
@@ -48,13 +47,13 @@ class Root(tk.Tk):
 
         # Creates and places components at the top and bottom of the left and right frame
 
-        self._watchlist_frame = Watchlist(self.binance.contracts, self.bitmex.contracts, self._left_frame, bg=BG_COLOR)
+        self._watchlist_frame = Watchlist(self.binance.contracts, self._left_frame, bg=BG_COLOR)
         self._watchlist_frame.pack(side=tk.TOP, padx=10)
 
         self.logging_frame = Logging(self._left_frame, bg=BG_COLOR)
         self.logging_frame.pack(side=tk.TOP, pady=15)  # Space a bit the components with vertical padding
 
-        self._strategy_frame = StrategyEditor(self, self.binance, self.bitmex, self._right_frame, bg=BG_COLOR)
+        self._strategy_frame = StrategyEditor(self, self.binance, self._right_frame, bg=BG_COLOR)
         self._strategy_frame.pack(side=tk.TOP, pady=15)
 
         self._trades_frame = TradesWatch(self._right_frame, bg=BG_COLOR)
@@ -73,9 +72,7 @@ class Root(tk.Tk):
         result = askquestion("Confirmation", "Do you really want to exit the application?")
         if result == "yes":
             self.binance.reconnect = False  # Avoids the infinite reconnect loop in _start_ws()
-            self.bitmex.reconnect = False
             self.binance.ws.close()
-            self.bitmex.ws.close()
 
             self.destroy()  # Destroys the UI and terminates the program as no other thread is running
 
@@ -90,10 +87,6 @@ class Root(tk.Tk):
 
         # Logs
 
-        for log in self.bitmex.logs:
-            if not log['displayed']:
-                self.logging_frame.add_log(log['log'])
-                log['displayed'] = True
 
         for log in self.binance.logs:
             if not log['displayed']:
@@ -102,7 +95,7 @@ class Root(tk.Tk):
 
         # Trades and Logs
 
-        for client in [self.binance, self.bitmex]:
+        for client in [self.binance]:
 
             try:  # try...except statement to handle the case when a dictionary is updated during the following loops
 
@@ -149,17 +142,6 @@ class Root(tk.Tk):
                     precision = self.binance.contracts[symbol].price_decimals
 
                     prices = self.binance.prices[symbol]
-
-                elif exchange == "Bitmex":
-                    if symbol not in self.bitmex.contracts:
-                        continue
-
-                    if symbol not in self.bitmex.prices:
-                        continue
-
-                    precision = self.bitmex.contracts[symbol].price_decimals
-
-                    prices = self.bitmex.prices[symbol]
 
                 else:
                     continue

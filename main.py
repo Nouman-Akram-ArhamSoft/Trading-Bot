@@ -1,7 +1,7 @@
 import logging
 
 from connectors.binance import BinanceClient
-from connectors.bitmex import BitmexClient
+# from connectors.bitmex import BitmexClient
 
 from interface.root_component import Root
 
@@ -27,13 +27,13 @@ logger.addHandler(file_handler)
 
 if __name__ == '__main__':  # Execute the following code only when executing main.py (not when importing it)
 
-    binance = BinanceClient("7e18d054011ee2662e61ac90435a3bf82837909e672692536fdf70fa46f31a26",
-                            "50439ab15e6d73e2a7dc86685caed35a60b115cde3e8d829c4da35c8a83a2ed3",
+    binance = BinanceClient("9aab64ab8fea14e0064c48b189c17f8eccc5a60b2a485c06f73d0e4233695c53",
+                            "7b8b4a0d0fb9c307c70d3ed6fdf8b0702173bf9c361b35c10607f7009dd92360",
                             testnet=True, futures=True)
-    bitmex = BitmexClient(
-        "RDhtbbdQz1rp7MXsFJFs5Rb4",
-        "uG75h7wzk3_-AaWVRGB1NerkIPY4IX5uoQZ4Jobs4mex`xdA6J4",
-        testnet=True)
+    # bitmex = BitmexClient(
+    #     "RDhtbbdQz1rp7MXsFJFs5Rb4",
+    #     "uG75h7wzk3_-AaWVRGB1NerkIPY4IX5uoQZ4Jobs4mex`xdA6J4",
+    #     testnet=True)
 
-    root = Root(binance, bitmex)
+    root = Root(binance)
     root.mainloop()
