@@ -21,5 +21,5 @@ class Logging(tk.Frame):
         """
 
         self.logging_text.configure(state=tk.NORMAL)  # Unlocks the tk.Text widgets
-        self.logging_text.insert("1.0", datetime.utcnow().strftime("%a %H:%M:%S :: ") + message + "\n")
+        self.logging_text.insert("1.0",  datetime.now().strftime("%a %H:%M:%S :: ") + message + "\n")
         self.logging_text.configure(state=tk.DISABLED)  # Locks the tk.Text widget to avoid accidentally inserting in it

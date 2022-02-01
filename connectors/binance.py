@@ -361,8 +361,11 @@ class BinanceClient:
         :return:
         """
 
-        self.ws = websocket.WebSocketApp(self._wss_url, on_open=self._on_open,
-                                         on_error=self._on_error, on_message=self._on_message)
+        self.ws = websocket.WebSocketApp(self._wss_url,
+                                         on_message= self._on_message,
+                                         on_error= self._on_error,
+                                         on_close= self._on_close,
+                                         on_open= self._on_open)
 
         while True:
             try:
@@ -380,8 +383,16 @@ class BinanceClient:
         # Subscribe to the two channels with two different subscription requests
         # Otherwise the request is too big and may get rejected by Binance
         self.subscribe_channel(list(self.contracts.values()), "bookTicker")
-        self.subscribe_channel(list(self.contracts.values()), "aggTrade")
+        # self.subscribe_channel(list(self.contracts.values()), "aggTrade")
 
+    def _on_close(self, ws, *args):
+
+        """
+        Callback method triggered when the connection drops
+        :return:
+        """
+
+        logger.warning("Binance Websocket connection closed")
 
     def _on_error(self, ws, msg: str):
 
@@ -497,12 +508,4 @@ class BinanceClient:
         logger.info("Binance current %s balance = %s, trade size = %s", contract.quote_asset, balance, trade_size)
 
         return trade_size
-
-
-
-
-
-
-
-
 

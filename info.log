@@ -135,3 +135,939 @@
 2022-01-31 18:56:27,463 INFO :: Binance connection opened
 2022-01-31 18:56:31,355 INFO :: Binance connection opened
 2022-01-31 18:56:31,701 DEBUG :: close status: 3003
+2022-02-01 10:15:13,463 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-02-01 10:15:14,408 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-02-01 10:15:14,420 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-02-01 10:15:15,124 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1643692514418&signature=f15d676808db148974a8cc56dbff0dfd822bd9d83490648624cd437b59c8cfbd HTTP/1.1" 200 None
+2022-02-01 10:15:15,128 INFO :: Binance Futures Client successfully initialized
+2022-02-01 10:15:15,130 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-02-01 10:15:16,272 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2022-02-01 10:15:16,282 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-02-01 10:15:16,888 INFO :: Binance connection opened
+2022-02-01 10:15:17,324 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2022-02-01 10:15:18,402 INFO :: Bitmex Client successfully initialized
+2022-02-01 10:15:19,533 INFO :: Bitmex connection opened
+2022-02-01 10:15:20,350 INFO :: Binance connection opened
+2022-02-01 10:15:23,771 INFO :: Binance connection opened
+2022-02-01 10:15:27,370 INFO :: Binance connection opened
+2022-02-01 10:15:30,719 INFO :: Binance connection opened
+2022-02-01 10:15:30,989 DEBUG :: close status: 3003
+2022-02-01 10:18:48,479 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-02-01 10:18:49,453 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-02-01 10:18:49,462 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-02-01 10:18:50,175 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1643692729460&signature=95c3e32fb666a2f54bbbbad65789e6b9463c8c4784e733f4714b4db6684f0c08 HTTP/1.1" 200 None
+2022-02-01 10:18:50,179 INFO :: Binance Futures Client successfully initialized
+2022-02-01 10:18:50,181 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-02-01 10:18:50,967 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2022-02-01 10:18:50,974 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-02-01 10:18:51,507 INFO :: Binance connection opened
+2022-02-01 10:18:51,916 WARNING :: Binance Websocket connection closed
+2022-02-01 10:18:55,241 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2022-02-01 10:18:55,607 INFO :: Bitmex Client successfully initialized
+2022-02-01 10:18:55,608 INFO :: Binance connection opened
+2022-02-01 10:18:56,218 WARNING :: Binance Websocket connection closed
+2022-02-01 10:18:56,735 INFO :: Bitmex connection opened
+2022-02-01 10:18:59,357 INFO :: Binance connection opened
+2022-02-01 10:18:59,619 WARNING :: Binance Websocket connection closed
+2022-02-01 10:19:02,663 INFO :: Binance connection opened
+2022-02-01 10:19:02,922 WARNING :: Binance Websocket connection closed
+2022-02-01 10:19:06,029 INFO :: Binance connection opened
+2022-02-01 10:19:06,306 WARNING :: Binance Websocket connection closed
+2022-02-01 10:19:09,555 INFO :: Binance connection opened
+2022-02-01 10:19:09,818 WARNING :: Binance Websocket connection closed
+2022-02-01 10:19:12,895 INFO :: Binance connection opened
+2022-02-01 10:19:13,163 WARNING :: Binance Websocket connection closed
+2022-02-01 10:19:16,290 INFO :: Binance connection opened
+2022-02-01 10:19:16,552 WARNING :: Binance Websocket connection closed
+2022-02-01 10:19:19,931 INFO :: Binance connection opened
+2022-02-01 10:19:20,270 WARNING :: Binance Websocket connection closed
+2022-02-01 10:19:23,765 INFO :: Binance connection opened
+2022-02-01 10:19:24,177 WARNING :: Binance Websocket connection closed
+2022-02-01 10:19:27,555 INFO :: Binance connection opened
+2022-02-01 10:19:27,963 WARNING :: Binance Websocket connection closed
+2022-02-01 10:19:31,145 INFO :: Binance connection opened
+2022-02-01 10:19:31,518 WARNING :: Binance Websocket connection closed
+2022-02-01 10:19:35,030 INFO :: Binance connection opened
+2022-02-01 10:19:35,297 WARNING :: Binance Websocket connection closed
+2022-02-01 10:19:38,714 INFO :: Binance connection opened
+2022-02-01 10:19:38,974 WARNING :: Binance Websocket connection closed
+2022-02-01 10:19:38,975 DEBUG :: close status: 3003
+2022-02-01 10:29:08,308 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-02-01 10:29:09,097 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-02-01 10:29:09,106 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-02-01 10:29:09,710 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1643693349103&signature=8283996dcc13f04a038d011912f5dd1508ed0d09db6f8ed86b840357f3d1f7bb HTTP/1.1" 200 None
+2022-02-01 10:29:09,713 INFO :: Binance Futures Client successfully initialized
+2022-02-01 10:29:09,716 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-02-01 10:29:10,639 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2022-02-01 10:29:10,647 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-02-01 10:29:10,939 ERROR :: error from callback <bound method BinanceClient._on_open of <connectors.binance.BinanceClient object at 0x7f4567d86fd0>>: _on_open() missing 1 required positional argument: 'ws'
+2022-02-01 10:29:11,289 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2022-02-01 10:29:11,292 INFO :: Bitmex Client successfully initialized
+2022-02-01 10:29:12,297 ERROR :: error from callback <bound method BitmexClient._on_open of <connectors.bitmex.BitmexClient object at 0x7f4567d8e070>>: _on_open() missing 1 required positional argument: 'ws'
+2022-02-01 10:29:12,297 ERROR :: error from callback <bound method BitmexClient._on_message of <connectors.bitmex.BitmexClient object at 0x7f4567d8e070>>: _on_message() missing 1 required positional argument: 'msg'
+2022-02-01 10:29:29,048 ERROR :: error from callback <bound method BinanceClient._on_close of <connectors.binance.BinanceClient object at 0x7f4567d86fd0>>: _on_close() missing 1 required positional argument: 'ws'
+2022-02-01 10:29:50,054 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-02-01 10:29:50,873 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-02-01 10:29:50,883 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-02-01 10:29:51,590 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1643693390880&signature=5b217bded44d8bf600c1de3a9202e16e126b6eb89ccb96d384518afafc93e91c HTTP/1.1" 200 None
+2022-02-01 10:29:51,593 INFO :: Binance Futures Client successfully initialized
+2022-02-01 10:29:51,596 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-02-01 10:29:53,131 ERROR :: error from callback <bound method BinanceClient._on_open of <connectors.binance.BinanceClient object at 0x7f373ebf3070>>: _on_open() missing 1 required positional argument: 'ws'
+2022-02-01 10:29:55,996 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2022-02-01 10:29:56,003 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-02-01 10:30:02,559 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 400 120
+2022-02-01 10:30:02,561 ERROR :: Error while making GET request to /api/v1/user/margin: {'error': {'message': 'This request has expired - `expires` is in the past. Current time: 1643693401', 'name': 'HTTPError'}} (error code 400)
+2022-02-01 10:30:02,561 INFO :: Bitmex Client successfully initialized
+2022-02-01 10:30:03,588 ERROR :: error from callback <bound method BitmexClient._on_open of <connectors.bitmex.BitmexClient object at 0x7f373ebf30d0>>: _on_open() missing 1 required positional argument: 'ws'
+2022-02-01 10:30:03,588 ERROR :: error from callback <bound method BitmexClient._on_message of <connectors.bitmex.BitmexClient object at 0x7f373ebf30d0>>: _on_message() missing 1 required positional argument: 'msg'
+2022-02-01 10:30:14,927 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-02-01 10:30:15,757 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/ticker/bookTicker?symbol=BTCUSDT HTTP/1.1" 200 None
+2022-02-01 10:30:21,763 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-02-01 10:30:22,348 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/ticker/bookTicker?symbol=ETHUSDT HTTP/1.1" 200 None
+2022-02-01 10:31:03,780 ERROR :: error from callback <bound method BitmexClient._on_error of <connectors.bitmex.BitmexClient object at 0x7f373ebf30d0>>: _on_error() missing 1 required positional argument: 'msg'
+2022-02-01 10:31:03,780 ERROR :: error from callback <bound method BitmexClient._on_close of <connectors.bitmex.BitmexClient object at 0x7f373ebf30d0>>: _on_close() missing 1 required positional argument: 'ws'
+2022-02-01 10:31:07,060 ERROR :: error from callback <bound method BitmexClient._on_open of <connectors.bitmex.BitmexClient object at 0x7f373ebf30d0>>: _on_open() missing 1 required positional argument: 'ws'
+2022-02-01 10:31:07,060 ERROR :: error from callback <bound method BitmexClient._on_message of <connectors.bitmex.BitmexClient object at 0x7f373ebf30d0>>: _on_message() missing 1 required positional argument: 'msg'
+2022-02-01 10:31:19,362 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-02-01 10:31:20,369 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/ticker/bookTicker?symbol=ETCUSDT HTTP/1.1" 200 None
+2022-02-01 10:31:49,404 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-02-01 10:31:50,273 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/klines?symbol=BTCUSDT&interval=1m&limit=1000 HTTP/1.1" 200 None
+2022-02-01 10:32:06,960 ERROR :: error from callback <bound method BitmexClient._on_error of <connectors.bitmex.BitmexClient object at 0x7f373ebf30d0>>: _on_error() missing 1 required positional argument: 'msg'
+2022-02-01 10:32:06,961 ERROR :: error from callback <bound method BitmexClient._on_close of <connectors.bitmex.BitmexClient object at 0x7f373ebf30d0>>: _on_close() missing 1 required positional argument: 'ws'
+2022-02-01 10:32:21,710 ERROR :: error from callback <bound method BitmexClient._on_open of <connectors.bitmex.BitmexClient object at 0x7f373ebf30d0>>: _on_open() missing 1 required positional argument: 'ws'
+2022-02-01 10:32:23,040 ERROR :: error from callback <bound method BitmexClient._on_message of <connectors.bitmex.BitmexClient object at 0x7f373ebf30d0>>: _on_message() missing 1 required positional argument: 'msg'
+2022-02-01 10:33:21,714 ERROR :: error from callback <bound method BitmexClient._on_error of <connectors.bitmex.BitmexClient object at 0x7f373ebf30d0>>: _on_error() missing 1 required positional argument: 'msg'
+2022-02-01 10:33:21,714 ERROR :: error from callback <bound method BitmexClient._on_close of <connectors.bitmex.BitmexClient object at 0x7f373ebf30d0>>: _on_close() missing 1 required positional argument: 'ws'
+2022-02-01 10:33:26,939 ERROR :: error from callback <bound method BitmexClient._on_open of <connectors.bitmex.BitmexClient object at 0x7f373ebf30d0>>: _on_open() missing 1 required positional argument: 'ws'
+2022-02-01 10:33:26,939 ERROR :: error from callback <bound method BitmexClient._on_message of <connectors.bitmex.BitmexClient object at 0x7f373ebf30d0>>: _on_message() missing 1 required positional argument: 'msg'
+2022-02-01 10:34:27,515 ERROR :: error from callback <bound method BitmexClient._on_error of <connectors.bitmex.BitmexClient object at 0x7f373ebf30d0>>: _on_error() missing 1 required positional argument: 'msg'
+2022-02-01 10:34:27,515 ERROR :: error from callback <bound method BitmexClient._on_close of <connectors.bitmex.BitmexClient object at 0x7f373ebf30d0>>: _on_close() missing 1 required positional argument: 'ws'
+2022-02-01 10:34:30,356 ERROR :: error from callback <bound method BitmexClient._on_open of <connectors.bitmex.BitmexClient object at 0x7f373ebf30d0>>: _on_open() missing 1 required positional argument: 'ws'
+2022-02-01 10:34:30,356 ERROR :: error from callback <bound method BitmexClient._on_message of <connectors.bitmex.BitmexClient object at 0x7f373ebf30d0>>: _on_message() missing 1 required positional argument: 'msg'
+2022-02-01 10:35:30,537 ERROR :: error from callback <bound method BitmexClient._on_error of <connectors.bitmex.BitmexClient object at 0x7f373ebf30d0>>: _on_error() missing 1 required positional argument: 'msg'
+2022-02-01 10:35:30,538 ERROR :: error from callback <bound method BitmexClient._on_close of <connectors.bitmex.BitmexClient object at 0x7f373ebf30d0>>: _on_close() missing 1 required positional argument: 'ws'
+2022-02-01 10:35:33,407 ERROR :: error from callback <bound method BitmexClient._on_open of <connectors.bitmex.BitmexClient object at 0x7f373ebf30d0>>: _on_open() missing 1 required positional argument: 'ws'
+2022-02-01 10:35:33,407 ERROR :: error from callback <bound method BitmexClient._on_message of <connectors.bitmex.BitmexClient object at 0x7f373ebf30d0>>: _on_message() missing 1 required positional argument: 'msg'
+2022-02-01 10:36:07,710 ERROR :: error from callback <bound method BinanceClient._on_close of <connectors.binance.BinanceClient object at 0x7f373ebf3070>>: _on_close() missing 1 required positional argument: 'ws'
+2022-02-01 10:36:07,881 ERROR :: error from callback <bound method BitmexClient._on_close of <connectors.bitmex.BitmexClient object at 0x7f373ebf30d0>>: _on_close() missing 1 required positional argument: 'ws'
+2022-02-01 10:37:59,103 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-02-01 10:37:59,947 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-02-01 10:37:59,960 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-02-01 10:38:00,611 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1643693879956&signature=902835bd6346afd5b7f73f75daafd31b07cfdea7e6023bd4086c0689ef1edc5d HTTP/1.1" 200 None
+2022-02-01 10:38:00,614 INFO :: Binance Futures Client successfully initialized
+2022-02-01 10:38:00,616 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-02-01 10:38:01,278 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2022-02-01 10:38:01,288 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-02-01 10:38:01,891 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2022-02-01 10:38:01,893 ERROR :: error from callback <bound method BinanceClient._on_open of <connectors.binance.BinanceClient object at 0x7f3060914070>>: _on_open() missing 1 required positional argument: 'ws'
+2022-02-01 10:38:01,894 INFO :: Bitmex Client successfully initialized
+2022-02-01 10:38:02,932 ERROR :: error from callback <bound method BitmexClient._on_open of <connectors.bitmex.BitmexClient object at 0x7f30609140d0>>: _on_open() missing 1 required positional argument: 'ws'
+2022-02-01 10:38:02,933 ERROR :: error from callback <bound method BitmexClient._on_message of <connectors.bitmex.BitmexClient object at 0x7f30609140d0>>: _on_message() missing 1 required positional argument: 'msg'
+2022-02-01 10:39:03,131 ERROR :: error from callback <bound method BitmexClient._on_error of <connectors.bitmex.BitmexClient object at 0x7f30609140d0>>: _on_error() missing 1 required positional argument: 'msg'
+2022-02-01 10:39:03,132 ERROR :: error from callback <bound method BitmexClient._on_close of <connectors.bitmex.BitmexClient object at 0x7f30609140d0>>: _on_close() missing 1 required positional argument: 'ws'
+2022-02-01 10:39:06,026 ERROR :: error from callback <bound method BitmexClient._on_open of <connectors.bitmex.BitmexClient object at 0x7f30609140d0>>: _on_open() missing 1 required positional argument: 'ws'
+2022-02-01 10:39:06,026 ERROR :: error from callback <bound method BitmexClient._on_message of <connectors.bitmex.BitmexClient object at 0x7f30609140d0>>: _on_message() missing 1 required positional argument: 'msg'
+2022-02-01 10:39:49,794 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-02-01 10:39:50,648 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-02-01 10:39:50,670 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-02-01 10:39:51,015 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1643693990664&signature=5b0f9cc7c6344658e1ef4c5dd3f38e04333adf4931af49ca7c608b2103114654 HTTP/1.1" 200 None
+2022-02-01 10:39:51,023 INFO :: Binance Futures Client successfully initialized
+2022-02-01 10:39:51,030 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-02-01 10:39:51,877 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2022-02-01 10:39:51,895 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-02-01 10:39:52,494 ERROR :: error from callback <bound method BinanceClient._on_open of <connectors.binance.BinanceClient object at 0x7f050dd98070>>: _on_open() missing 1 required positional argument: 'ws'
+2022-02-01 10:39:54,541 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2022-02-01 10:39:54,547 INFO :: Bitmex Client successfully initialized
+2022-02-01 10:39:57,209 ERROR :: error from callback <bound method BitmexClient._on_open of <connectors.bitmex.BitmexClient object at 0x7f050dd980d0>>: _on_open() missing 1 required positional argument: 'ws'
+2022-02-01 10:39:57,210 ERROR :: error from callback <bound method BitmexClient._on_message of <connectors.bitmex.BitmexClient object at 0x7f050dd980d0>>: _on_message() missing 1 required positional argument: 'msg'
+2022-02-01 10:40:00,069 ERROR :: error from callback <bound method BinanceClient._on_close of <connectors.binance.BinanceClient object at 0x7f050dd98070>>: _on_close() missing 1 required positional argument: 'ws'
+2022-02-01 10:40:00,674 ERROR :: error from callback <bound method BitmexClient._on_close of <connectors.bitmex.BitmexClient object at 0x7f050dd980d0>>: _on_close() missing 1 required positional argument: 'ws'
+2022-02-01 10:40:06,809 ERROR :: error from callback <bound method BitmexClient._on_error of <connectors.bitmex.BitmexClient object at 0x7f30609140d0>>: _on_error() missing 1 required positional argument: 'msg'
+2022-02-01 10:40:06,810 ERROR :: error from callback <bound method BitmexClient._on_close of <connectors.bitmex.BitmexClient object at 0x7f30609140d0>>: _on_close() missing 1 required positional argument: 'ws'
+2022-02-01 10:40:09,520 ERROR :: error from callback <bound method BitmexClient._on_open of <connectors.bitmex.BitmexClient object at 0x7f30609140d0>>: _on_open() missing 1 required positional argument: 'ws'
+2022-02-01 10:40:09,521 ERROR :: error from callback <bound method BitmexClient._on_message of <connectors.bitmex.BitmexClient object at 0x7f30609140d0>>: _on_message() missing 1 required positional argument: 'msg'
+2022-02-01 10:40:34,530 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-02-01 10:40:35,400 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-02-01 10:40:35,408 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-02-01 10:40:36,219 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1643694035405&signature=b66d6b29a4df6456c8be3d60e4569ec757c3704e46b4da4fb0c76a76406302e2 HTTP/1.1" 200 None
+2022-02-01 10:40:36,221 INFO :: Binance Futures Client successfully initialized
+2022-02-01 10:40:36,223 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-02-01 10:40:37,448 ERROR :: error from callback <bound method BinanceClient._on_open of <connectors.binance.BinanceClient object at 0x7fcceedad070>>: _on_open() missing 1 required positional argument: 'ws'
+2022-02-01 10:40:37,961 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2022-02-01 10:40:37,970 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-02-01 10:40:38,677 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2022-02-01 10:40:38,683 INFO :: Bitmex Client successfully initialized
+2022-02-01 10:40:39,546 ERROR :: error from callback <bound method BitmexClient._on_open of <connectors.bitmex.BitmexClient object at 0x7fcceedad0d0>>: _on_open() missing 1 required positional argument: 'ws'
+2022-02-01 10:40:39,546 ERROR :: error from callback <bound method BitmexClient._on_message of <connectors.bitmex.BitmexClient object at 0x7fcceedad0d0>>: _on_message() missing 1 required positional argument: 'msg'
+2022-02-01 10:41:09,705 ERROR :: error from callback <bound method BitmexClient._on_error of <connectors.bitmex.BitmexClient object at 0x7f30609140d0>>: _on_error() missing 1 required positional argument: 'msg'
+2022-02-01 10:41:09,706 ERROR :: error from callback <bound method BitmexClient._on_close of <connectors.bitmex.BitmexClient object at 0x7f30609140d0>>: _on_close() missing 1 required positional argument: 'ws'
+2022-02-01 10:41:12,546 ERROR :: error from callback <bound method BitmexClient._on_open of <connectors.bitmex.BitmexClient object at 0x7f30609140d0>>: _on_open() missing 1 required positional argument: 'ws'
+2022-02-01 10:41:12,547 ERROR :: error from callback <bound method BitmexClient._on_message of <connectors.bitmex.BitmexClient object at 0x7f30609140d0>>: _on_message() missing 1 required positional argument: 'msg'
+2022-02-01 10:41:25,941 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-02-01 10:41:26,706 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-02-01 10:41:26,714 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-02-01 10:41:27,315 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1643694086711&signature=157b8a65aaf83f8b9da06b11c4bdf14760181614a0f348dd925821c1af9b8e3b HTTP/1.1" 200 None
+2022-02-01 10:41:27,322 INFO :: Binance Futures Client successfully initialized
+2022-02-01 10:41:27,329 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-02-01 10:41:28,040 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2022-02-01 10:41:28,049 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-02-01 10:41:28,857 ERROR :: error from callback <bound method BinanceClient._on_open of <connectors.binance.BinanceClient object at 0x7fc07c996070>>: _on_open() missing 1 required positional argument: 'ws'
+2022-02-01 10:41:30,189 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2022-02-01 10:41:30,195 INFO :: Bitmex Client successfully initialized
+2022-02-01 10:41:31,115 ERROR :: error from callback <bound method BitmexClient._on_open of <connectors.bitmex.BitmexClient object at 0x7fc07c9960d0>>: _on_open() missing 1 required positional argument: 'ws'
+2022-02-01 10:41:31,117 ERROR :: error from callback <bound method BitmexClient._on_message of <connectors.bitmex.BitmexClient object at 0x7fc07c9960d0>>: loads() missing 1 required positional argument: 's'
+2022-02-01 10:42:12,685 ERROR :: error from callback <bound method BitmexClient._on_error of <connectors.bitmex.BitmexClient object at 0x7f30609140d0>>: _on_error() missing 1 required positional argument: 'msg'
+2022-02-01 10:42:12,685 ERROR :: error from callback <bound method BitmexClient._on_close of <connectors.bitmex.BitmexClient object at 0x7f30609140d0>>: _on_close() missing 1 required positional argument: 'ws'
+2022-02-01 10:42:13,094 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-02-01 10:42:13,710 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-02-01 10:42:13,733 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-02-01 10:42:14,223 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1643694133727&signature=a8936e39e5dbb841046025a0fbc57e8c4eda69d63daa4e46ace26e4d41333441 HTTP/1.1" 200 None
+2022-02-01 10:42:14,233 INFO :: Binance Futures Client successfully initialized
+2022-02-01 10:42:14,239 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-02-01 10:42:15,016 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2022-02-01 10:42:15,034 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-02-01 10:42:15,446 ERROR :: error from callback <bound method BinanceClient._on_open of <connectors.binance.BinanceClient object at 0x7f8d9ce15070>>: _on_open() missing 1 required positional argument: 'ws'
+2022-02-01 10:42:16,686 ERROR :: error from callback <bound method BitmexClient._on_open of <connectors.bitmex.BitmexClient object at 0x7f30609140d0>>: _on_open() missing 1 required positional argument: 'ws'
+2022-02-01 10:42:16,687 ERROR :: error from callback <bound method BitmexClient._on_message of <connectors.bitmex.BitmexClient object at 0x7f30609140d0>>: _on_message() missing 1 required positional argument: 'msg'
+2022-02-01 10:43:15,564 ERROR :: error from callback <bound method BitmexClient._on_error of <connectors.bitmex.BitmexClient object at 0x7f30609140d0>>: _on_error() missing 1 required positional argument: 'msg'
+2022-02-01 10:43:15,565 ERROR :: error from callback <bound method BitmexClient._on_close of <connectors.bitmex.BitmexClient object at 0x7f30609140d0>>: _on_close() missing 1 required positional argument: 'ws'
+2022-02-01 10:43:19,636 ERROR :: error from callback <bound method BitmexClient._on_open of <connectors.bitmex.BitmexClient object at 0x7f30609140d0>>: _on_open() missing 1 required positional argument: 'ws'
+2022-02-01 10:43:20,582 ERROR :: error from callback <bound method BitmexClient._on_message of <connectors.bitmex.BitmexClient object at 0x7f30609140d0>>: _on_message() missing 1 required positional argument: 'msg'
+2022-02-01 10:44:24,485 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-02-01 10:44:25,406 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-02-01 10:44:25,421 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-02-01 10:44:26,225 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1643694265418&signature=84f56bcad1d8d9585879e72765aa5c36e06fb1f246759fb696025ff5073444df HTTP/1.1" 200 None
+2022-02-01 10:44:26,231 INFO :: Binance Futures Client successfully initialized
+2022-02-01 10:44:26,233 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-02-01 10:44:27,455 ERROR :: error from callback <bound method BinanceClient._on_open of <connectors.binance.BinanceClient object at 0x7f15aa1b0070>>: _on_open() missing 1 required positional argument: 'ws'
+2022-02-01 10:44:28,786 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2022-02-01 10:44:28,985 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-02-01 10:44:29,711 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2022-02-01 10:44:29,716 INFO :: Bitmex Client successfully initialized
+2022-02-01 10:44:35,836 ERROR :: error from callback <bound method BitmexClient._on_open of <connectors.bitmex.BitmexClient object at 0x7f15aa1b00d0>>: _on_open() missing 1 required positional argument: 'ws'
+2022-02-01 10:44:35,836 ERROR :: error from callback <bound method BitmexClient._on_message of <connectors.bitmex.BitmexClient object at 0x7f15aa1b00d0>>: _on_message() missing 1 required positional argument: 'msg'
+2022-02-01 10:45:01,545 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-02-01 10:45:02,377 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/ticker/bookTicker?symbol=BTCUSDT HTTP/1.1" 200 None
+2022-02-01 10:45:14,392 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-02-01 10:45:15,176 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/ticker/bookTicker?symbol=ETHUSDT HTTP/1.1" 200 None
+2022-02-01 10:45:33,199 ERROR :: error from callback <bound method BitmexClient._on_error of <connectors.bitmex.BitmexClient object at 0x7f15aa1b00d0>>: _on_error() missing 1 required positional argument: 'msg'
+2022-02-01 10:45:33,200 ERROR :: error from callback <bound method BitmexClient._on_close of <connectors.bitmex.BitmexClient object at 0x7f15aa1b00d0>>: _on_close() missing 1 required positional argument: 'ws'
+2022-02-01 10:45:40,048 ERROR :: error from callback <bound method BitmexClient._on_open of <connectors.bitmex.BitmexClient object at 0x7f15aa1b00d0>>: _on_open() missing 1 required positional argument: 'ws'
+2022-02-01 10:45:40,048 ERROR :: error from callback <bound method BitmexClient._on_message of <connectors.bitmex.BitmexClient object at 0x7f15aa1b00d0>>: _on_message() missing 1 required positional argument: 'msg'
+2022-02-01 10:45:43,372 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-02-01 10:45:44,366 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/klines?symbol=BTCUSDT&interval=1m&limit=1000 HTTP/1.1" 200 None
+2022-02-01 10:46:35,260 ERROR :: error from callback <bound method BinanceClient._on_close of <connectors.binance.BinanceClient object at 0x7f15aa1b0070>>: _on_close() missing 1 required positional argument: 'ws'
+2022-02-01 10:46:35,474 ERROR :: error from callback <bound method BitmexClient._on_close of <connectors.bitmex.BitmexClient object at 0x7f15aa1b00d0>>: _on_close() missing 1 required positional argument: 'ws'
+2022-02-01 10:51:21,624 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-02-01 10:51:22,350 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-02-01 10:51:22,358 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-02-01 10:51:23,126 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1643694682355&signature=cc8b1744ef3d90870f1d51df0c6a88c4f79a23939cd6db8c2ca79e2532b8930e HTTP/1.1" 200 None
+2022-02-01 10:51:23,133 INFO :: Binance Futures Client successfully initialized
+2022-02-01 10:51:23,139 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-02-01 10:51:24,046 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2022-02-01 10:51:24,458 ERROR :: error from callback <bound method BinanceClient._on_open of <connectors.binance.BinanceClient object at 0x7fa35175e070>>: _on_open() missing 1 required positional argument: 'ws'
+2022-02-01 10:51:26,082 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-02-01 10:58:55,604 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-02-01 10:58:56,329 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-02-01 10:58:56,339 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-02-01 10:58:56,966 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1643695136337&signature=d7cab9da2537fd3d5c584f443f015d478e2b3581a99baa25f3567b0610a4c2ea HTTP/1.1" 200 None
+2022-02-01 10:58:56,971 INFO :: Binance Futures Client successfully initialized
+2022-02-01 10:58:56,973 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-02-01 10:58:57,755 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2022-02-01 10:58:57,764 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-02-01 10:58:58,882 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2022-02-01 10:58:58,886 INFO :: Bitmex Client successfully initialized
+2022-02-01 11:00:22,483 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-02-01 11:00:23,270 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-02-01 11:00:23,280 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-02-01 11:00:24,079 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1643695223278&signature=39bfe0786831bac5ccf78d3db018566d91e35bea9b465ae0be2a0ed9876c095a HTTP/1.1" 200 None
+2022-02-01 11:00:24,086 INFO :: Binance Futures Client successfully initialized
+2022-02-01 11:00:24,091 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-02-01 11:00:25,614 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2022-02-01 11:00:25,618 INFO :: Binance connection opened
+2022-02-01 11:00:25,622 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-02-01 11:00:26,023 WARNING :: Binance Websocket connection closed
+2022-02-01 11:00:27,460 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2022-02-01 11:00:27,465 INFO :: Bitmex Client successfully initialized
+2022-02-01 11:00:28,409 INFO :: Bitmex connection opened
+2022-02-01 11:00:29,505 INFO :: Binance connection opened
+2022-02-01 11:00:29,918 WARNING :: Binance Websocket connection closed
+2022-02-01 11:00:33,471 INFO :: Binance connection opened
+2022-02-01 11:00:33,734 WARNING :: Binance Websocket connection closed
+2022-02-01 11:00:37,289 INFO :: Binance connection opened
+2022-02-01 11:00:37,698 WARNING :: Binance Websocket connection closed
+2022-02-01 11:00:41,249 INFO :: Binance connection opened
+2022-02-01 11:00:41,521 WARNING :: Binance Websocket connection closed
+2022-02-01 11:00:45,188 INFO :: Binance connection opened
+2022-02-01 11:00:45,582 WARNING :: Binance Websocket connection closed
+2022-02-01 11:00:49,272 INFO :: Binance connection opened
+2022-02-01 11:00:49,678 WARNING :: Binance Websocket connection closed
+2022-02-01 11:00:53,365 INFO :: Binance connection opened
+2022-02-01 11:00:53,774 WARNING :: Binance Websocket connection closed
+2022-02-01 11:00:57,359 INFO :: Binance connection opened
+2022-02-01 11:00:57,625 WARNING :: Binance Websocket connection closed
+2022-02-01 11:01:01,249 INFO :: Binance connection opened
+2022-02-01 11:01:01,659 WARNING :: Binance Websocket connection closed
+2022-02-01 11:01:05,347 INFO :: Binance connection opened
+2022-02-01 11:01:05,755 WARNING :: Binance Websocket connection closed
+2022-02-01 11:01:09,339 INFO :: Binance connection opened
+2022-02-01 11:01:09,749 WARNING :: Binance Websocket connection closed
+2022-02-01 11:01:13,336 INFO :: Binance connection opened
+2022-02-01 11:01:13,742 WARNING :: Binance Websocket connection closed
+2022-02-01 11:01:17,224 INFO :: Binance connection opened
+2022-02-01 11:01:17,633 WARNING :: Binance Websocket connection closed
+2022-02-01 11:01:21,322 INFO :: Binance connection opened
+2022-02-01 11:01:21,729 WARNING :: Binance Websocket connection closed
+2022-02-01 11:01:25,416 INFO :: Binance connection opened
+2022-02-01 11:01:25,825 WARNING :: Binance Websocket connection closed
+2022-02-01 11:01:29,206 INFO :: Binance connection opened
+2022-02-01 11:01:29,614 WARNING :: Binance Websocket connection closed
+2022-02-01 11:01:33,200 INFO :: Binance connection opened
+2022-02-01 11:01:33,620 WARNING :: Binance Websocket connection closed
+2022-02-01 11:01:37,192 INFO :: Binance connection opened
+2022-02-01 11:01:37,601 WARNING :: Binance Websocket connection closed
+2022-02-01 11:01:41,092 INFO :: Binance connection opened
+2022-02-01 11:01:41,364 WARNING :: Binance Websocket connection closed
+2022-02-01 11:01:44,720 INFO :: Binance connection opened
+2022-02-01 11:01:45,182 WARNING :: Binance Websocket connection closed
+2022-02-01 11:01:48,867 INFO :: Binance connection opened
+2022-02-01 11:01:49,278 WARNING :: Binance Websocket connection closed
+2022-02-01 11:01:52,961 INFO :: Binance connection opened
+2022-02-01 11:01:53,372 WARNING :: Binance Websocket connection closed
+2022-02-01 11:01:56,911 INFO :: Binance connection opened
+2022-02-01 11:01:57,188 WARNING :: Binance Websocket connection closed
+2022-02-01 11:02:00,696 INFO :: Binance connection opened
+2022-02-01 11:02:01,058 WARNING :: Binance Websocket connection closed
+2022-02-01 11:02:04,737 INFO :: Binance connection opened
+2022-02-01 11:02:05,147 WARNING :: Binance Websocket connection closed
+2022-02-01 11:02:08,836 INFO :: Binance connection opened
+2022-02-01 11:02:09,245 WARNING :: Binance Websocket connection closed
+2022-02-01 11:02:12,416 INFO :: Binance connection opened
+2022-02-01 11:02:12,928 WARNING :: Binance Websocket connection closed
+2022-02-01 11:02:16,135 INFO :: Binance connection opened
+2022-02-01 11:02:16,515 WARNING :: Binance Websocket connection closed
+2022-02-01 11:02:20,210 INFO :: Binance connection opened
+2022-02-01 11:02:20,474 WARNING :: Binance Websocket connection closed
+2022-02-01 11:02:24,093 INFO :: Binance connection opened
+2022-02-01 11:02:24,501 WARNING :: Binance Websocket connection closed
+2022-02-01 11:02:28,159 INFO :: Binance connection opened
+2022-02-01 11:02:28,595 WARNING :: Binance Websocket connection closed
+2022-02-01 11:02:32,281 INFO :: Binance connection opened
+2022-02-01 11:02:32,691 WARNING :: Binance Websocket connection closed
+2022-02-01 11:02:36,273 INFO :: Binance connection opened
+2022-02-01 11:02:36,684 WARNING :: Binance Websocket connection closed
+2022-02-01 11:02:40,232 INFO :: Binance connection opened
+2022-02-01 11:02:40,573 WARNING :: Binance Websocket connection closed
+2022-02-01 11:02:44,166 INFO :: Binance connection opened
+2022-02-01 11:02:44,569 WARNING :: Binance Websocket connection closed
+2022-02-01 11:02:48,255 INFO :: Binance connection opened
+2022-02-01 11:02:48,664 WARNING :: Binance Websocket connection closed
+2022-02-01 11:02:52,147 INFO :: Binance connection opened
+2022-02-01 11:02:52,556 WARNING :: Binance Websocket connection closed
+2022-02-01 11:02:56,000 INFO :: Binance connection opened
+2022-02-01 11:02:56,344 WARNING :: Binance Websocket connection closed
+2022-02-01 11:03:00,030 INFO :: Binance connection opened
+2022-02-01 11:03:00,441 WARNING :: Binance Websocket connection closed
+2022-02-01 11:03:04,133 INFO :: Binance connection opened
+2022-02-01 11:03:04,537 WARNING :: Binance Websocket connection closed
+2022-02-01 11:03:08,222 INFO :: Binance connection opened
+2022-02-01 11:03:08,634 WARNING :: Binance Websocket connection closed
+2022-02-01 11:03:12,318 INFO :: Binance connection opened
+2022-02-01 11:03:12,730 WARNING :: Binance Websocket connection closed
+2022-02-01 11:03:16,419 INFO :: Binance connection opened
+2022-02-01 11:03:16,824 WARNING :: Binance Websocket connection closed
+2022-02-01 11:03:20,262 INFO :: Binance connection opened
+2022-02-01 11:03:20,715 WARNING :: Binance Websocket connection closed
+2022-02-01 11:03:24,202 INFO :: Binance connection opened
+2022-02-01 11:03:24,608 WARNING :: Binance Websocket connection closed
+2022-02-01 11:03:28,147 INFO :: Binance connection opened
+2022-02-01 11:03:28,599 WARNING :: Binance Websocket connection closed
+2022-02-01 11:03:32,081 INFO :: Binance connection opened
+2022-02-01 11:03:32,491 WARNING :: Binance Websocket connection closed
+2022-02-01 11:03:36,690 INFO :: Binance connection opened
+2022-02-01 11:03:37,098 WARNING :: Binance Websocket connection closed
+2022-02-01 11:03:40,437 INFO :: Binance connection opened
+2022-02-01 11:03:40,717 WARNING :: Binance Websocket connection closed
+2022-02-01 11:03:44,271 INFO :: Binance connection opened
+2022-02-01 11:03:44,676 WARNING :: Binance Websocket connection closed
+2022-02-01 11:03:48,363 INFO :: Binance connection opened
+2022-02-01 11:03:48,772 WARNING :: Binance Websocket connection closed
+2022-02-01 11:03:52,415 INFO :: Binance connection opened
+2022-02-01 11:03:52,767 WARNING :: Binance Websocket connection closed
+2022-02-01 11:03:57,418 INFO :: Binance connection opened
+2022-02-01 11:03:57,694 WARNING :: Binance Websocket connection closed
+2022-02-01 11:04:01,276 INFO :: Binance connection opened
+2022-02-01 11:04:01,674 WARNING :: Binance Websocket connection closed
+2022-02-01 11:04:04,960 INFO :: Binance connection opened
+2022-02-01 11:04:05,241 WARNING :: Binance Websocket connection closed
+2022-02-01 11:04:08,339 INFO :: Binance connection opened
+2022-02-01 11:04:08,609 WARNING :: Binance Websocket connection closed
+2022-02-01 11:04:12,221 INFO :: Binance connection opened
+2022-02-01 11:04:12,619 WARNING :: Binance Websocket connection closed
+2022-02-01 11:04:15,947 INFO :: Binance connection opened
+2022-02-01 11:04:16,212 WARNING :: Binance Websocket connection closed
+2022-02-01 11:04:19,424 INFO :: Binance connection opened
+2022-02-01 11:04:19,698 WARNING :: Binance Websocket connection closed
+2022-02-01 11:04:22,870 INFO :: Binance connection opened
+2022-02-01 11:04:23,281 WARNING :: Binance Websocket connection closed
+2022-02-01 11:04:26,968 INFO :: Binance connection opened
+2022-02-01 11:04:27,377 WARNING :: Binance Websocket connection closed
+2022-02-01 11:04:31,062 INFO :: Binance connection opened
+2022-02-01 11:04:31,321 WARNING :: Binance Websocket connection closed
+2022-02-01 11:04:34,955 INFO :: Binance connection opened
+2022-02-01 11:04:35,230 WARNING :: Binance Websocket connection closed
+2022-02-01 11:04:38,718 INFO :: Binance connection opened
+2022-02-01 11:04:39,075 WARNING :: Binance Websocket connection closed
+2022-02-01 11:04:42,642 INFO :: Binance connection opened
+2022-02-01 11:04:43,042 WARNING :: Binance Websocket connection closed
+2022-02-01 11:04:46,728 INFO :: Binance connection opened
+2022-02-01 11:04:46,996 WARNING :: Binance Websocket connection closed
+2022-02-01 11:04:50,620 INFO :: Binance connection opened
+2022-02-01 11:04:51,031 WARNING :: Binance Websocket connection closed
+2022-02-01 11:04:54,162 INFO :: Binance connection opened
+2022-02-01 11:04:54,614 WARNING :: Binance Websocket connection closed
+2022-02-01 11:04:58,096 INFO :: Binance connection opened
+2022-02-01 11:04:58,409 WARNING :: Binance Websocket connection closed
+2022-02-01 11:05:03,215 INFO :: Binance connection opened
+2022-02-01 11:05:03,629 WARNING :: Binance Websocket connection closed
+2022-02-01 11:05:06,900 INFO :: Binance connection opened
+2022-02-01 11:05:07,311 WARNING :: Binance Websocket connection closed
+2022-02-01 11:05:10,611 INFO :: Binance connection opened
+2022-02-01 11:05:11,215 WARNING :: Binance Websocket connection closed
+2022-02-01 11:05:14,991 INFO :: Binance connection opened
+2022-02-01 11:05:15,257 WARNING :: Binance Websocket connection closed
+2022-02-01 11:05:18,782 INFO :: Binance connection opened
+2022-02-01 11:05:19,199 WARNING :: Binance Websocket connection closed
+2022-02-01 11:05:22,773 INFO :: Binance connection opened
+2022-02-01 11:05:23,183 WARNING :: Binance Websocket connection closed
+2022-02-01 11:05:26,871 INFO :: Binance connection opened
+2022-02-01 11:05:27,280 WARNING :: Binance Websocket connection closed
+2022-02-01 11:05:30,762 INFO :: Binance connection opened
+2022-02-01 11:05:31,171 WARNING :: Binance Websocket connection closed
+2022-02-01 11:05:34,858 INFO :: Binance connection opened
+2022-02-01 11:05:35,273 WARNING :: Binance Websocket connection closed
+2022-02-01 11:05:38,953 INFO :: Binance connection opened
+2022-02-01 11:05:39,771 WARNING :: Binance Websocket connection closed
+2022-02-01 11:05:42,929 INFO :: Binance connection opened
+2022-02-01 11:05:43,198 WARNING :: Binance Websocket connection closed
+2022-02-01 11:05:46,640 INFO :: Binance connection opened
+2022-02-01 11:05:46,901 WARNING :: Binance Websocket connection closed
+2022-02-01 11:05:50,330 INFO :: Binance connection opened
+2022-02-01 11:05:50,604 WARNING :: Binance Websocket connection closed
+2022-02-01 11:05:54,214 INFO :: Binance connection opened
+2022-02-01 11:05:54,486 WARNING :: Binance Websocket connection closed
+2022-02-01 11:05:59,022 INFO :: Binance connection opened
+2022-02-01 11:05:59,430 WARNING :: Binance Websocket connection closed
+2022-02-01 11:06:03,018 INFO :: Binance connection opened
+2022-02-01 11:06:03,428 WARNING :: Binance Websocket connection closed
+2022-02-01 11:06:06,609 INFO :: Binance connection opened
+2022-02-01 11:06:07,012 WARNING :: Binance Websocket connection closed
+2022-02-01 11:06:10,593 INFO :: Binance connection opened
+2022-02-01 11:06:11,114 WARNING :: Binance Websocket connection closed
+2022-02-01 11:06:14,254 INFO :: Binance connection opened
+2022-02-01 11:06:14,520 WARNING :: Binance Websocket connection closed
+2022-02-01 11:06:17,923 INFO :: Binance connection opened
+2022-02-01 11:06:18,189 WARNING :: Binance Websocket connection closed
+2022-02-01 11:06:21,755 INFO :: Binance connection opened
+2022-02-01 11:06:22,164 WARNING :: Binance Websocket connection closed
+2022-02-01 11:06:25,545 INFO :: Binance connection opened
+2022-02-01 11:06:25,912 WARNING :: Binance Websocket connection closed
+2022-02-01 11:06:29,434 INFO :: Binance connection opened
+2022-02-01 11:06:29,826 WARNING :: Binance Websocket connection closed
+2022-02-01 11:06:33,326 INFO :: Binance connection opened
+2022-02-01 11:06:33,740 WARNING :: Binance Websocket connection closed
+2022-02-01 11:06:37,115 INFO :: Binance connection opened
+2022-02-01 11:06:37,526 WARNING :: Binance Websocket connection closed
+2022-02-01 11:06:41,416 INFO :: Binance connection opened
+2022-02-01 11:06:41,826 WARNING :: Binance Websocket connection closed
+2022-02-01 11:06:45,422 INFO :: Binance connection opened
+2022-02-01 11:06:45,699 WARNING :: Binance Websocket connection closed
+2022-02-01 11:06:49,166 INFO :: Binance connection opened
+2022-02-01 11:06:49,435 WARNING :: Binance Websocket connection closed
+2022-02-01 11:06:52,851 INFO :: Binance connection opened
+2022-02-01 11:06:53,404 WARNING :: Binance Websocket connection closed
+2022-02-01 11:06:57,186 INFO :: Binance connection opened
+2022-02-01 11:06:57,450 WARNING :: Binance Websocket connection closed
+2022-02-01 11:07:01,076 INFO :: Binance connection opened
+2022-02-01 11:07:01,485 WARNING :: Binance Websocket connection closed
+2022-02-01 11:07:05,170 INFO :: Binance connection opened
+2022-02-01 11:07:05,582 WARNING :: Binance Websocket connection closed
+2022-02-01 11:07:09,577 INFO :: Binance connection opened
+2022-02-01 11:07:10,085 WARNING :: Binance Websocket connection closed
+2022-02-01 11:07:14,083 INFO :: Binance connection opened
+2022-02-01 11:07:15,108 WARNING :: Binance Websocket connection closed
+2022-02-01 11:07:18,790 INFO :: Binance connection opened
+2022-02-01 11:07:19,050 WARNING :: Binance Websocket connection closed
+2022-02-01 11:07:22,271 INFO :: Binance connection opened
+2022-02-01 11:07:22,680 WARNING :: Binance Websocket connection closed
+2022-02-01 11:07:26,189 INFO :: Binance connection opened
+2022-02-01 11:07:26,452 WARNING :: Binance Websocket connection closed
+2022-02-01 11:07:30,171 INFO :: Binance connection opened
+2022-02-01 11:07:30,571 WARNING :: Binance Websocket connection closed
+2022-02-01 11:07:34,153 INFO :: Binance connection opened
+2022-02-01 11:07:34,535 WARNING :: Binance Websocket connection closed
+2022-02-01 11:07:37,662 INFO :: Binance connection opened
+2022-02-01 11:07:37,930 WARNING :: Binance Websocket connection closed
+2022-02-01 11:07:42,093 INFO :: Binance connection opened
+2022-02-01 11:07:42,354 WARNING :: Binance Websocket connection closed
+2022-02-01 11:07:45,621 INFO :: Binance connection opened
+2022-02-01 11:07:46,028 WARNING :: Binance Websocket connection closed
+2022-02-01 11:07:49,408 INFO :: Binance connection opened
+2022-02-01 11:07:49,817 WARNING :: Binance Websocket connection closed
+2022-02-01 11:07:53,402 INFO :: Binance connection opened
+2022-02-01 11:07:53,671 WARNING :: Binance Websocket connection closed
+2022-02-01 11:07:57,314 INFO :: Binance connection opened
+2022-02-01 11:07:57,584 WARNING :: Binance Websocket connection closed
+2022-02-01 11:08:01,083 INFO :: Binance connection opened
+2022-02-01 11:08:01,343 WARNING :: Binance Websocket connection closed
+2022-02-01 11:08:04,972 INFO :: Binance connection opened
+2022-02-01 11:08:05,382 WARNING :: Binance Websocket connection closed
+2022-02-01 11:08:08,966 INFO :: Binance connection opened
+2022-02-01 11:08:09,377 WARNING :: Binance Websocket connection closed
+2022-02-01 11:08:13,061 INFO :: Binance connection opened
+2022-02-01 11:08:13,471 WARNING :: Binance Websocket connection closed
+2022-02-01 11:08:17,157 INFO :: Binance connection opened
+2022-02-01 11:08:17,568 WARNING :: Binance Websocket connection closed
+2022-02-01 11:08:20,946 INFO :: Binance connection opened
+2022-02-01 11:08:21,358 WARNING :: Binance Websocket connection closed
+2022-02-01 11:08:24,892 INFO :: Binance connection opened
+2022-02-01 11:08:25,365 WARNING :: Binance Websocket connection closed
+2022-02-01 11:08:28,688 INFO :: Binance connection opened
+2022-02-01 11:08:29,143 WARNING :: Binance Websocket connection closed
+2022-02-01 11:08:32,793 INFO :: Binance connection opened
+2022-02-01 11:08:33,344 WARNING :: Binance Websocket connection closed
+2022-02-01 11:08:36,880 INFO :: Binance connection opened
+2022-02-01 11:08:37,330 WARNING :: Binance Websocket connection closed
+2022-02-01 11:08:40,813 INFO :: Binance connection opened
+2022-02-01 11:08:41,085 WARNING :: Binance Websocket connection closed
+2022-02-01 11:08:44,910 INFO :: Binance connection opened
+2022-02-01 11:08:45,334 WARNING :: Binance Websocket connection closed
+2022-02-01 11:08:48,903 INFO :: Binance connection opened
+2022-02-01 11:08:49,161 WARNING :: Binance Websocket connection closed
+2022-02-01 11:08:52,792 INFO :: Binance connection opened
+2022-02-01 11:08:53,182 WARNING :: Binance Websocket connection closed
+2022-02-01 11:08:56,685 INFO :: Binance connection opened
+2022-02-01 11:08:56,958 WARNING :: Binance Websocket connection closed
+2022-02-01 11:09:00,474 INFO :: Binance connection opened
+2022-02-01 11:09:00,746 WARNING :: Binance Websocket connection closed
+2022-02-01 11:09:04,478 INFO :: Binance connection opened
+2022-02-01 11:09:04,763 WARNING :: Binance Websocket connection closed
+2022-02-01 11:09:08,254 INFO :: Binance connection opened
+2022-02-01 11:09:08,664 WARNING :: Binance Websocket connection closed
+2022-02-01 11:09:12,148 INFO :: Binance connection opened
+2022-02-01 11:09:12,560 WARNING :: Binance Websocket connection closed
+2022-02-01 11:09:15,830 ERROR :: error from callback <bound method BitmexClient._on_close of <connectors.bitmex.BitmexClient object at 0x7f22fd829190>>: _on_close() takes 2 positional arguments but 4 were given
+2022-02-01 11:09:15,830 ERROR :: Bitmex connection error: _on_close() takes 2 positional arguments but 4 were given
+2022-02-01 11:09:15,946 ERROR :: Binance connection error: 'NoneType' object has no attribute 'is_ssl'
+2022-02-01 11:09:15,946 WARNING :: Binance Websocket connection closed
+2022-02-01 11:09:35,297 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-02-01 11:09:36,106 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-02-01 11:09:36,117 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-02-01 11:09:36,799 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1643695776115&signature=1e1edcb4971ce483aeadd0403ffb782a5ac2d4e6b70c9748c93072406de58f80 HTTP/1.1" 200 None
+2022-02-01 11:09:36,807 INFO :: Binance Futures Client successfully initialized
+2022-02-01 11:09:36,811 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-02-01 11:09:37,732 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2022-02-01 11:09:37,751 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-02-01 11:09:38,076 INFO :: Binance connection opened
+2022-02-01 11:09:38,335 ERROR :: error from callback <function BinanceClient._start_ws.<locals>.<lambda> at 0x7fae85b76820>: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:09:38,335 ERROR :: Binance connection error: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:09:39,794 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2022-02-01 11:09:39,801 INFO :: Bitmex Client successfully initialized
+2022-02-01 11:09:41,638 INFO :: Binance connection opened
+2022-02-01 11:09:42,047 ERROR :: error from callback <function BinanceClient._start_ws.<locals>.<lambda> at 0x7fae85b76820>: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:09:42,047 ERROR :: Binance connection error: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:09:42,054 INFO :: Bitmex connection opened
+2022-02-01 11:09:45,220 INFO :: Binance connection opened
+2022-02-01 11:09:45,495 ERROR :: error from callback <function BinanceClient._start_ws.<locals>.<lambda> at 0x7fae85b76820>: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:09:45,496 ERROR :: Binance connection error: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:09:48,551 INFO :: Binance connection opened
+2022-02-01 11:09:48,814 ERROR :: error from callback <function BinanceClient._start_ws.<locals>.<lambda> at 0x7fae85b76820>: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:09:48,814 ERROR :: Binance connection error: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:09:51,939 INFO :: Binance connection opened
+2022-02-01 11:09:52,286 ERROR :: error from callback <function BinanceClient._start_ws.<locals>.<lambda> at 0x7fae85b76820>: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:09:52,286 ERROR :: Binance connection error: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:09:55,454 INFO :: Binance connection opened
+2022-02-01 11:09:55,768 ERROR :: error from callback <function BinanceClient._start_ws.<locals>.<lambda> at 0x7fae85b76820>: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:09:55,768 ERROR :: Binance connection error: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:09:58,867 INFO :: Binance connection opened
+2022-02-01 11:09:59,249 ERROR :: error from callback <function BinanceClient._start_ws.<locals>.<lambda> at 0x7fae85b76820>: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:09:59,249 ERROR :: Binance connection error: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:10:02,293 INFO :: Binance connection opened
+2022-02-01 11:10:02,730 ERROR :: error from callback <function BinanceClient._start_ws.<locals>.<lambda> at 0x7fae85b76820>: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:10:02,731 ERROR :: Binance connection error: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:10:05,772 INFO :: Binance connection opened
+2022-02-01 11:10:06,032 ERROR :: error from callback <function BinanceClient._start_ws.<locals>.<lambda> at 0x7fae85b76820>: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:10:06,032 ERROR :: Binance connection error: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:10:09,236 INFO :: Binance connection opened
+2022-02-01 11:10:09,496 ERROR :: error from callback <function BinanceClient._start_ws.<locals>.<lambda> at 0x7fae85b76820>: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:10:09,496 ERROR :: Binance connection error: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:10:12,749 INFO :: Binance connection opened
+2022-02-01 11:10:13,019 ERROR :: error from callback <function BinanceClient._start_ws.<locals>.<lambda> at 0x7fae85b76820>: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:10:13,019 ERROR :: Binance connection error: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:10:16,145 INFO :: Binance connection opened
+2022-02-01 11:10:16,555 ERROR :: error from callback <function BinanceClient._start_ws.<locals>.<lambda> at 0x7fae85b76820>: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:10:16,555 ERROR :: Binance connection error: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:10:19,729 INFO :: Binance connection opened
+2022-02-01 11:10:19,994 ERROR :: error from callback <function BinanceClient._start_ws.<locals>.<lambda> at 0x7fae85b76820>: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:10:19,995 ERROR :: Binance connection error: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:10:23,164 INFO :: Binance connection opened
+2022-02-01 11:10:23,519 ERROR :: error from callback <function BinanceClient._start_ws.<locals>.<lambda> at 0x7fae85b76820>: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:10:23,519 ERROR :: Binance connection error: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:10:26,838 INFO :: Binance connection opened
+2022-02-01 11:10:27,112 ERROR :: error from callback <function BinanceClient._start_ws.<locals>.<lambda> at 0x7fae85b76820>: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:10:27,113 ERROR :: Binance connection error: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:10:30,487 INFO :: Binance connection opened
+2022-02-01 11:10:30,890 ERROR :: error from callback <function BinanceClient._start_ws.<locals>.<lambda> at 0x7fae85b76820>: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:10:30,891 ERROR :: Binance connection error: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:10:34,167 INFO :: Binance connection opened
+2022-02-01 11:10:34,583 ERROR :: error from callback <function BinanceClient._start_ws.<locals>.<lambda> at 0x7fae85b76820>: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:10:34,585 ERROR :: Binance connection error: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:10:38,160 INFO :: Binance connection opened
+2022-02-01 11:10:38,435 ERROR :: error from callback <function BinanceClient._start_ws.<locals>.<lambda> at 0x7fae85b76820>: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:10:38,435 ERROR :: Binance connection error: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:10:41,608 INFO :: Binance connection opened
+2022-02-01 11:10:41,870 ERROR :: error from callback <function BinanceClient._start_ws.<locals>.<lambda> at 0x7fae85b76820>: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:10:41,870 ERROR :: Binance connection error: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:10:45,091 INFO :: Binance connection opened
+2022-02-01 11:10:45,430 ERROR :: error from callback <function BinanceClient._start_ws.<locals>.<lambda> at 0x7fae85b76820>: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:10:45,431 ERROR :: Binance connection error: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:10:48,916 INFO :: Binance connection opened
+2022-02-01 11:10:49,321 ERROR :: error from callback <function BinanceClient._start_ws.<locals>.<lambda> at 0x7fae85b76820>: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:10:49,321 ERROR :: Binance connection error: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:10:52,656 INFO :: Binance connection opened
+2022-02-01 11:10:53,008 ERROR :: error from callback <function BinanceClient._start_ws.<locals>.<lambda> at 0x7fae85b76820>: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:10:53,009 ERROR :: Binance connection error: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:10:56,494 INFO :: Binance connection opened
+2022-02-01 11:10:56,758 ERROR :: error from callback <function BinanceClient._start_ws.<locals>.<lambda> at 0x7fae85b76820>: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:10:56,758 ERROR :: Binance connection error: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:11:00,176 INFO :: Binance connection opened
+2022-02-01 11:11:00,436 ERROR :: error from callback <function BinanceClient._start_ws.<locals>.<lambda> at 0x7fae85b76820>: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:11:00,436 ERROR :: Binance connection error: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:11:03,684 INFO :: Binance connection opened
+2022-02-01 11:11:03,944 ERROR :: error from callback <function BinanceClient._start_ws.<locals>.<lambda> at 0x7fae85b76820>: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:11:03,944 ERROR :: Binance connection error: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:11:07,653 INFO :: Binance connection opened
+2022-02-01 11:11:08,060 ERROR :: error from callback <function BinanceClient._start_ws.<locals>.<lambda> at 0x7fae85b76820>: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:11:08,060 ERROR :: Binance connection error: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:11:11,646 INFO :: Binance connection opened
+2022-02-01 11:11:11,915 ERROR :: error from callback <function BinanceClient._start_ws.<locals>.<lambda> at 0x7fae85b76820>: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:11:11,915 ERROR :: Binance connection error: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:11:15,584 INFO :: Binance connection opened
+2022-02-01 11:11:15,845 ERROR :: error from callback <function BinanceClient._start_ws.<locals>.<lambda> at 0x7fae85b76820>: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:11:15,845 ERROR :: Binance connection error: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:11:20,552 ERROR :: Bitmex connection error: The read operation timed out
+2022-02-01 11:11:20,553 ERROR :: error from callback <bound method BitmexClient._on_close of <connectors.bitmex.BitmexClient object at 0x7fae85d0ca90>>: _on_close() takes 2 positional arguments but 4 were given
+2022-02-01 11:11:20,554 ERROR :: Bitmex connection error: _on_close() takes 2 positional arguments but 4 were given
+2022-02-01 11:12:27,328 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-02-01 11:12:28,240 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-02-01 11:12:28,260 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-02-01 11:12:28,877 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1643695948255&signature=a41ff3bfdf33793d85576c68ee983fdff7be1914564f6b0621ecbff695a7742d HTTP/1.1" 200 None
+2022-02-01 11:12:28,884 INFO :: Binance Futures Client successfully initialized
+2022-02-01 11:12:28,889 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-02-01 11:12:29,564 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2022-02-01 11:12:29,599 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-02-01 11:12:30,083 INFO :: Binance connection opened
+2022-02-01 11:12:30,285 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2022-02-01 11:12:30,290 INFO :: Bitmex Client successfully initialized
+2022-02-01 11:12:30,504 ERROR :: error from callback <function BinanceClient._start_ws.<locals>.<lambda> at 0x7f83be37a790>: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:12:30,504 ERROR :: Binance connection error: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:12:34,079 INFO :: Binance connection opened
+2022-02-01 11:12:34,487 ERROR :: error from callback <function BinanceClient._start_ws.<locals>.<lambda> at 0x7f83be37a790>: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:12:34,487 ERROR :: Binance connection error: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:12:38,025 INFO :: Binance connection opened
+2022-02-01 11:12:38,482 ERROR :: error from callback <function BinanceClient._start_ws.<locals>.<lambda> at 0x7f83be37a790>: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:12:38,482 ERROR :: Binance connection error: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:12:41,960 INFO :: Binance connection opened
+2022-02-01 11:12:42,370 ERROR :: error from callback <function BinanceClient._start_ws.<locals>.<lambda> at 0x7f83be37a790>: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:12:42,371 ERROR :: Binance connection error: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:12:45,841 INFO :: Bitmex connection opened
+2022-02-01 11:12:45,907 INFO :: Binance connection opened
+2022-02-01 11:12:46,168 ERROR :: error from callback <function BinanceClient._start_ws.<locals>.<lambda> at 0x7f83be37a790>: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:12:46,168 ERROR :: Binance connection error: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:12:49,503 INFO :: Binance connection opened
+2022-02-01 11:12:49,775 ERROR :: error from callback <function BinanceClient._start_ws.<locals>.<lambda> at 0x7f83be37a790>: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:12:49,775 ERROR :: Binance connection error: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:12:52,861 INFO :: Binance connection opened
+2022-02-01 11:12:53,134 ERROR :: error from callback <function BinanceClient._start_ws.<locals>.<lambda> at 0x7f83be37a790>: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:12:53,134 ERROR :: Binance connection error: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:12:56,306 INFO :: Binance connection opened
+2022-02-01 11:12:56,577 ERROR :: error from callback <function BinanceClient._start_ws.<locals>.<lambda> at 0x7f83be37a790>: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:12:56,577 ERROR :: Binance connection error: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:12:59,884 INFO :: Binance connection opened
+2022-02-01 11:13:00,146 ERROR :: error from callback <function BinanceClient._start_ws.<locals>.<lambda> at 0x7f83be37a790>: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:13:00,146 ERROR :: Binance connection error: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:13:03,775 INFO :: Binance connection opened
+2022-02-01 11:13:04,039 ERROR :: error from callback <function BinanceClient._start_ws.<locals>.<lambda> at 0x7f83be37a790>: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:13:04,040 ERROR :: Binance connection error: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:13:07,159 INFO :: Binance connection opened
+2022-02-01 11:13:07,431 ERROR :: error from callback <function BinanceClient._start_ws.<locals>.<lambda> at 0x7f83be37a790>: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:13:07,432 ERROR :: Binance connection error: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:13:10,793 INFO :: Binance connection opened
+2022-02-01 11:13:11,058 ERROR :: error from callback <function BinanceClient._start_ws.<locals>.<lambda> at 0x7f83be37a790>: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:13:11,058 ERROR :: Binance connection error: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:13:14,626 INFO :: Binance connection opened
+2022-02-01 11:13:15,041 ERROR :: error from callback <function BinanceClient._start_ws.<locals>.<lambda> at 0x7f83be37a790>: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:13:15,041 ERROR :: Binance connection error: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:13:18,721 INFO :: Binance connection opened
+2022-02-01 11:13:19,135 ERROR :: error from callback <function BinanceClient._start_ws.<locals>.<lambda> at 0x7f83be37a790>: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:13:19,136 ERROR :: Binance connection error: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:13:22,614 INFO :: Binance connection opened
+2022-02-01 11:13:23,024 ERROR :: error from callback <function BinanceClient._start_ws.<locals>.<lambda> at 0x7f83be37a790>: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:13:23,024 ERROR :: Binance connection error: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:13:26,360 INFO :: Binance connection opened
+2022-02-01 11:13:26,688 ERROR :: error from callback <function BinanceClient._start_ws.<locals>.<lambda> at 0x7f83be37a790>: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:13:26,689 ERROR :: Binance connection error: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:13:30,261 INFO :: Binance connection opened
+2022-02-01 11:13:31,114 ERROR :: error from callback <function BinanceClient._start_ws.<locals>.<lambda> at 0x7f83be37a790>: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:13:31,114 ERROR :: Binance connection error: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:13:34,798 INFO :: Binance connection opened
+2022-02-01 11:13:35,212 ERROR :: error from callback <function BinanceClient._start_ws.<locals>.<lambda> at 0x7f83be37a790>: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:13:35,212 ERROR :: Binance connection error: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:13:38,438 INFO :: Binance connection opened
+2022-02-01 11:13:38,793 ERROR :: error from callback <function BinanceClient._start_ws.<locals>.<lambda> at 0x7f83be37a790>: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:13:38,793 ERROR :: Binance connection error: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:13:41,870 INFO :: Binance connection opened
+2022-02-01 11:13:42,137 ERROR :: error from callback <function BinanceClient._start_ws.<locals>.<lambda> at 0x7f83be37a790>: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:13:42,138 ERROR :: Binance connection error: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:13:45,606 INFO :: Binance connection opened
+2022-02-01 11:13:45,870 ERROR :: error from callback <function BinanceClient._start_ws.<locals>.<lambda> at 0x7f83be37a790>: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:13:45,870 ERROR :: Binance connection error: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:13:49,544 INFO :: Binance connection opened
+2022-02-01 11:13:49,954 ERROR :: error from callback <function BinanceClient._start_ws.<locals>.<lambda> at 0x7f83be37a790>: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:13:49,955 ERROR :: Binance connection error: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:13:53,332 INFO :: Binance connection opened
+2022-02-01 11:13:53,603 ERROR :: error from callback <function BinanceClient._start_ws.<locals>.<lambda> at 0x7f83be37a790>: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:13:53,603 ERROR :: Binance connection error: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:13:57,019 INFO :: Binance connection opened
+2022-02-01 11:13:57,429 ERROR :: error from callback <function BinanceClient._start_ws.<locals>.<lambda> at 0x7f83be37a790>: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:13:57,429 ERROR :: Binance connection error: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:14:00,680 INFO :: Binance connection opened
+2022-02-01 11:14:01,036 ERROR :: error from callback <function BinanceClient._start_ws.<locals>.<lambda> at 0x7f83be37a790>: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:14:01,036 ERROR :: Binance connection error: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:14:04,312 INFO :: Binance connection opened
+2022-02-01 11:14:04,581 ERROR :: error from callback <function BinanceClient._start_ws.<locals>.<lambda> at 0x7f83be37a790>: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:14:04,581 ERROR :: Binance connection error: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:14:07,640 INFO :: Binance connection opened
+2022-02-01 11:14:07,901 ERROR :: error from callback <function BinanceClient._start_ws.<locals>.<lambda> at 0x7f83be37a790>: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:14:07,902 ERROR :: Binance connection error: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:14:11,166 INFO :: Binance connection opened
+2022-02-01 11:14:11,424 ERROR :: error from callback <function BinanceClient._start_ws.<locals>.<lambda> at 0x7f83be37a790>: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:14:11,425 ERROR :: Binance connection error: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:14:14,668 INFO :: Binance connection opened
+2022-02-01 11:14:15,042 ERROR :: error from callback <function BinanceClient._start_ws.<locals>.<lambda> at 0x7f83be37a790>: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:14:15,042 ERROR :: Binance connection error: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:14:18,242 INFO :: Binance connection opened
+2022-02-01 11:14:18,625 ERROR :: error from callback <function BinanceClient._start_ws.<locals>.<lambda> at 0x7f83be37a790>: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:14:18,625 ERROR :: Binance connection error: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:14:21,772 INFO :: Binance connection opened
+2022-02-01 11:14:22,106 ERROR :: error from callback <function BinanceClient._start_ws.<locals>.<lambda> at 0x7f83be37a790>: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:14:22,107 ERROR :: Binance connection error: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:14:25,336 INFO :: Binance connection opened
+2022-02-01 11:14:25,596 ERROR :: error from callback <function BinanceClient._start_ws.<locals>.<lambda> at 0x7f83be37a790>: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:14:25,596 ERROR :: Binance connection error: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:14:29,022 INFO :: Binance connection opened
+2022-02-01 11:14:29,485 ERROR :: error from callback <function BinanceClient._start_ws.<locals>.<lambda> at 0x7f83be37a790>: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:14:29,485 ERROR :: Binance connection error: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:14:32,716 INFO :: Binance connection opened
+2022-02-01 11:14:33,070 ERROR :: error from callback <function BinanceClient._start_ws.<locals>.<lambda> at 0x7f83be37a790>: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:14:33,070 ERROR :: Binance connection error: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:14:36,282 INFO :: Binance connection opened
+2022-02-01 11:14:36,542 ERROR :: error from callback <function BinanceClient._start_ws.<locals>.<lambda> at 0x7f83be37a790>: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:14:36,543 ERROR :: Binance connection error: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:14:39,928 INFO :: Binance connection opened
+2022-02-01 11:14:40,338 ERROR :: error from callback <function BinanceClient._start_ws.<locals>.<lambda> at 0x7f83be37a790>: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:14:40,339 ERROR :: Binance connection error: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:14:43,432 INFO :: Binance connection opened
+2022-02-01 11:14:43,823 ERROR :: error from callback <function BinanceClient._start_ws.<locals>.<lambda> at 0x7f83be37a790>: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:14:43,823 ERROR :: Binance connection error: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:14:46,993 INFO :: Binance connection opened
+2022-02-01 11:14:47,266 ERROR :: error from callback <function BinanceClient._start_ws.<locals>.<lambda> at 0x7f83be37a790>: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:14:47,266 ERROR :: Binance connection error: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:14:50,606 INFO :: Binance connection opened
+2022-02-01 11:14:50,871 ERROR :: error from callback <function BinanceClient._start_ws.<locals>.<lambda> at 0x7f83be37a790>: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:14:50,871 ERROR :: Binance connection error: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:14:54,179 INFO :: Binance connection opened
+2022-02-01 11:14:54,445 ERROR :: error from callback <function BinanceClient._start_ws.<locals>.<lambda> at 0x7f83be37a790>: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:14:54,445 ERROR :: Binance connection error: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:14:57,971 INFO :: Binance connection opened
+2022-02-01 11:14:58,382 ERROR :: error from callback <function BinanceClient._start_ws.<locals>.<lambda> at 0x7f83be37a790>: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:14:58,383 ERROR :: Binance connection error: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:15:01,736 INFO :: Binance connection opened
+2022-02-01 11:15:02,072 ERROR :: error from callback <function BinanceClient._start_ws.<locals>.<lambda> at 0x7f83be37a790>: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:15:02,072 ERROR :: Binance connection error: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:15:05,147 INFO :: Binance connection opened
+2022-02-01 11:15:05,410 ERROR :: error from callback <function BinanceClient._start_ws.<locals>.<lambda> at 0x7f83be37a790>: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:15:05,411 ERROR :: Binance connection error: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:15:08,660 INFO :: Binance connection opened
+2022-02-01 11:15:08,929 ERROR :: error from callback <function BinanceClient._start_ws.<locals>.<lambda> at 0x7f83be37a790>: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:15:08,929 ERROR :: Binance connection error: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:15:12,012 INFO :: Binance connection opened
+2022-02-01 11:15:12,282 ERROR :: error from callback <function BinanceClient._start_ws.<locals>.<lambda> at 0x7f83be37a790>: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:15:12,282 ERROR :: Binance connection error: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:15:15,662 INFO :: Binance connection opened
+2022-02-01 11:15:16,013 ERROR :: error from callback <function BinanceClient._start_ws.<locals>.<lambda> at 0x7f83be37a790>: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:15:16,014 ERROR :: Binance connection error: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:15:24,319 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-02-01 11:15:25,025 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-02-01 11:15:25,046 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-02-01 11:15:25,850 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1643696125041&signature=6575d28d51714c48d2a3d06e5e295e933b22d263409d679185ba94b037f58c49 HTTP/1.1" 200 None
+2022-02-01 11:15:25,857 INFO :: Binance Futures Client successfully initialized
+2022-02-01 11:15:25,862 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-02-01 11:15:27,489 INFO :: Binance connection opened
+2022-02-01 11:15:27,899 ERROR :: error from callback <function BinanceClient._start_ws.<locals>.<lambda> at 0x7ff087097820>: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:15:27,900 ERROR :: Binance connection error: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:15:28,904 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2022-02-01 11:15:30,567 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-02-01 11:15:31,169 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2022-02-01 11:15:31,177 INFO :: Bitmex Client successfully initialized
+2022-02-01 11:15:31,423 INFO :: Binance connection opened
+2022-02-01 11:15:31,896 ERROR :: error from callback <function BinanceClient._start_ws.<locals>.<lambda> at 0x7ff087097820>: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:15:31,896 ERROR :: Binance connection error: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:15:35,586 ERROR :: Binance connection error: 'NoneType' object has no attribute 'is_ssl'
+2022-02-01 11:15:35,587 ERROR :: error from callback <function BinanceClient._start_ws.<locals>.<lambda> at 0x7ff087097820>: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:15:35,587 ERROR :: Binance connection error: <lambda>() takes 1 positional argument but 3 were given
+2022-02-01 11:15:37,640 ERROR :: Bitmex connection error: 'NoneType' object has no attribute 'is_ssl'
+2022-02-01 11:15:37,641 ERROR :: error from callback <bound method BitmexClient._on_close of <connectors.bitmex.BitmexClient object at 0x7ff08722ca90>>: _on_close() takes 2 positional arguments but 4 were given
+2022-02-01 11:15:37,641 ERROR :: Bitmex connection error: _on_close() takes 2 positional arguments but 4 were given
+2022-02-01 11:15:48,151 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-02-01 11:15:48,904 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-02-01 11:15:48,914 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-02-01 11:15:49,724 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1643696148912&signature=14defced908515254efd6d3d1c5b0bee9898f9b5fe0ec59e934ed326cae40714 HTTP/1.1" 200 None
+2022-02-01 11:15:49,731 INFO :: Binance Futures Client successfully initialized
+2022-02-01 11:15:49,736 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-02-01 11:15:50,445 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2022-02-01 11:15:50,453 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-02-01 11:15:51,153 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2022-02-01 11:15:51,158 INFO :: Bitmex Client successfully initialized
+2022-02-01 11:15:51,376 INFO :: Binance connection opened
+2022-02-01 11:15:51,672 ERROR :: error from callback <bound method BinanceClient._on_close of <connectors.binance.BinanceClient object at 0x7f2f4c149040>>: _on_close() takes 2 positional arguments but 4 were given
+2022-02-01 11:15:51,672 ERROR :: Binance connection error: _on_close() takes 2 positional arguments but 4 were given
+2022-02-01 11:15:52,107 INFO :: Bitmex connection opened
+2022-02-01 11:15:55,386 INFO :: Binance connection opened
+2022-02-01 11:15:55,769 ERROR :: error from callback <bound method BinanceClient._on_close of <connectors.binance.BinanceClient object at 0x7f2f4c149040>>: _on_close() takes 2 positional arguments but 4 were given
+2022-02-01 11:15:55,769 ERROR :: Binance connection error: _on_close() takes 2 positional arguments but 4 were given
+2022-02-01 11:15:57,119 ERROR :: error from callback <bound method BitmexClient._on_close of <connectors.bitmex.BitmexClient object at 0x7f2f4c149190>>: _on_close() takes 2 positional arguments but 4 were given
+2022-02-01 11:15:57,119 ERROR :: Bitmex connection error: _on_close() takes 2 positional arguments but 4 were given
+2022-02-01 11:16:08,881 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-02-01 11:16:09,482 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-02-01 11:16:09,501 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-02-01 11:16:10,215 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1643696169497&signature=a8752d4517bc4f5e02348c56232d5342a5a2cc1382e962a7cc6e3b4e8e7fa92f HTTP/1.1" 200 None
+2022-02-01 11:16:10,223 INFO :: Binance Futures Client successfully initialized
+2022-02-01 11:16:10,228 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-02-01 11:16:11,470 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2022-02-01 11:16:11,561 INFO :: Binance connection opened
+2022-02-01 11:16:11,825 WARNING :: Binance Websocket connection closed
+2022-02-01 11:16:15,349 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-02-01 11:16:15,351 INFO :: Binance connection opened
+2022-02-01 11:16:15,627 WARNING :: Binance Websocket connection closed
+2022-02-01 11:16:19,129 INFO :: Binance connection opened
+2022-02-01 11:16:19,538 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2022-02-01 11:16:19,546 WARNING :: Binance Websocket connection closed
+2022-02-01 11:16:19,546 INFO :: Bitmex Client successfully initialized
+2022-02-01 11:16:20,567 INFO :: Bitmex connection opened
+2022-02-01 11:16:23,081 INFO :: Binance connection opened
+2022-02-01 11:16:23,340 WARNING :: Binance Websocket connection closed
+2022-02-01 11:16:24,248 ERROR :: error from callback <bound method BitmexClient._on_close of <connectors.bitmex.BitmexClient object at 0x7f238aa9e190>>: _on_close() takes 2 positional arguments but 4 were given
+2022-02-01 11:16:24,249 ERROR :: Bitmex connection error: _on_close() takes 2 positional arguments but 4 were given
+2022-02-01 11:16:31,170 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-02-01 11:16:32,037 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-02-01 11:16:32,058 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-02-01 11:16:32,956 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1643696192054&signature=f869cdc2b724b896b35de86d7edefe851c30696432ab29a970cf897409e7674d HTTP/1.1" 200 None
+2022-02-01 11:16:32,963 INFO :: Binance Futures Client successfully initialized
+2022-02-01 11:16:32,968 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-02-01 11:16:33,775 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2022-02-01 11:16:33,792 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-02-01 11:16:34,391 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2022-02-01 11:16:34,398 INFO :: Bitmex Client successfully initialized
+2022-02-01 11:16:34,645 INFO :: Binance connection opened
+2022-02-01 11:16:37,024 INFO :: Bitmex connection opened
+2022-02-01 11:17:09,973 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-02-01 11:17:10,855 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/klines?symbol=BTCUSDT&interval=1m&limit=1000 HTTP/1.1" 200 None
+2022-02-01 11:19:07,941 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-02-01 11:19:08,826 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/klines?symbol=BTCSTUSDT&interval=1m&limit=1000 HTTP/1.1" 200 None
+2022-02-01 11:27:59,487 WARNING :: Binance Websocket connection closed
+2022-02-01 11:27:59,655 ERROR :: error from callback <bound method BitmexClient._on_close of <connectors.bitmex.BitmexClient object at 0x7fcf3110d190>>: _on_close() takes 2 positional arguments but 4 were given
+2022-02-01 11:27:59,656 ERROR :: Bitmex connection error: _on_close() takes 2 positional arguments but 4 were given
+2022-02-01 11:28:34,876 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-02-01 11:28:35,840 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-02-01 11:28:35,850 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-02-01 11:28:36,659 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1643696915848&signature=598681029866cec153967716595c938eade5c9b0a6247b916c4c5b90b4de404f HTTP/1.1" 200 None
+2022-02-01 11:28:36,668 INFO :: Binance Futures Client successfully initialized
+2022-02-01 11:28:36,673 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-02-01 11:28:37,484 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2022-02-01 11:28:37,499 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-02-01 11:28:38,913 INFO :: Binance connection opened
+2022-02-01 11:28:40,652 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2022-02-01 11:28:43,485 INFO :: Bitmex Client successfully initialized
+2022-02-01 11:28:45,782 INFO :: Bitmex connection opened
+2022-02-01 11:29:00,320 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-02-01 11:29:00,952 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/ticker/bookTicker?symbol=DOGEUSDT HTTP/1.1" 200 None
+2022-02-01 11:29:23,645 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-02-01 11:29:24,412 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/klines?symbol=BTCUSDT&interval=1m&limit=1000 HTTP/1.1" 200 None
+2022-02-01 11:35:19,399 WARNING :: Binance Websocket connection closed
+2022-02-01 11:35:59,907 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2022-02-01 11:36:00,319 DEBUG :: https://api.binance.com:443 "GET /api/v3/exchangeInfo HTTP/1.1" 200 63194
+2022-02-01 11:36:00,697 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2022-02-01 11:36:01,149 DEBUG :: https://api.binance.com:443 "GET /api/v3/account?timestamp=1643697360695&signature=9f3de8aa8bc503ab4d346835c4e576378494969dc099557c232db8aec91c6f70 HTTP/1.1" 401 70
+2022-02-01 11:36:01,152 ERROR :: Error while making GET request to /api/v3/account: {'code': -2015, 'msg': 'Invalid API-key, IP, or permissions for action.'} (error code 401)
+2022-02-01 11:36:01,154 INFO :: Binance Futures Client successfully initialized
+2022-02-01 11:36:01,158 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-02-01 11:36:02,394 INFO :: Binance connection opened
+2022-02-01 11:36:02,394 WARNING :: Subscribing to more than 300 symbols will most likely fail. Consider subscribing only when adding a symbol to your Watchlist or when starting a strategy for a symbol.
+2022-02-01 11:36:07,587 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2022-02-01 11:36:07,603 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-02-01 11:36:08,416 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2022-02-01 11:36:08,422 INFO :: Bitmex Client successfully initialized
+2022-02-01 11:36:11,615 INFO :: Bitmex connection opened
+2022-02-01 11:39:24,158 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2022-02-01 11:39:24,840 DEBUG :: https://api.binance.com:443 "GET /api/v3/exchangeInfo HTTP/1.1" 200 63194
+2022-02-01 11:39:24,941 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2022-02-01 11:39:25,453 DEBUG :: https://api.binance.com:443 "GET /api/v3/account?timestamp=1643697564939&signature=21887d047dfc50ede9649fcc36a58c58831625c48157bdb7d8fb2414745e822b HTTP/1.1" 200 2079
+2022-02-01 11:39:25,460 INFO :: Binance Futures Client successfully initialized
+2022-02-01 11:39:25,465 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-02-01 11:39:27,911 INFO :: Binance connection opened
+2022-02-01 11:39:27,912 WARNING :: Subscribing to more than 300 symbols will most likely fail. Consider subscribing only when adding a symbol to your Watchlist or when starting a strategy for a symbol.
+2022-02-01 11:39:30,533 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 400 120
+2022-02-01 11:39:30,534 ERROR :: Error while making GET request to /api/v1/instrument/active: {'error': {'message': 'This request has expired - `expires` is in the past. Current time: 1643697570', 'name': 'HTTPError'}} (error code 400)
+2022-02-01 11:39:30,536 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-02-01 11:39:31,290 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2022-02-01 11:39:31,296 INFO :: Bitmex Client successfully initialized
+2022-02-01 11:39:32,211 INFO :: Bitmex connection opened
+2022-02-01 11:40:13,436 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2022-02-01 11:40:13,868 DEBUG :: https://api.binance.com:443 "GET /api/v3/klines?symbol=ACHUSDT&interval=1m&limit=1000 HTTP/1.1" 200 22424
+2022-02-01 11:41:47,423 WARNING :: Binance Websocket connection closed
+2022-02-01 11:41:47,687 WARNING :: Bitmex Websocket connection closed
+2022-02-01 11:43:30,756 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-02-01 11:43:31,588 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-02-01 11:43:31,598 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-02-01 11:43:32,257 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1643697811596&signature=21e8108cf4ca552cb0029b111bd82b6953827a793c56d396377c4fccdfd5df86 HTTP/1.1" 200 None
+2022-02-01 11:43:32,264 INFO :: Binance Futures Client successfully initialized
+2022-02-01 11:43:32,269 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-02-01 11:43:33,098 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 401 63
+2022-02-01 11:43:33,103 ERROR :: Error while making GET request to /api/v1/instrument/active: {'error': {'message': 'Signature not valid.', 'name': 'HTTPError'}} (error code 401)
+2022-02-01 11:43:33,107 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-02-01 11:43:33,539 INFO :: Binance connection opened
+2022-02-01 11:43:34,319 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 401 63
+2022-02-01 11:43:34,326 ERROR :: Error while making GET request to /api/v1/user/margin: {'error': {'message': 'Signature not valid.', 'name': 'HTTPError'}} (error code 401)
+2022-02-01 11:43:34,327 INFO :: Bitmex Client successfully initialized
+2022-02-01 11:43:36,050 INFO :: Bitmex connection opened
+2022-02-01 11:47:39,439 WARNING :: Binance Websocket connection closed
+2022-02-01 11:47:39,943 WARNING :: Bitmex Websocket connection closed
+2022-02-01 11:47:43,829 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-02-01 11:47:44,511 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-02-01 11:47:44,521 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-02-01 11:47:44,961 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1643698064519&signature=3acaf4c20b2340c3f35860e1da9ad441054502c495fcf9ca94720792b024ee5d HTTP/1.1" 200 None
+2022-02-01 11:47:44,966 INFO :: Binance Futures Client successfully initialized
+2022-02-01 11:47:44,968 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-02-01 11:47:46,312 INFO :: Binance connection opened
+2022-02-01 11:47:50,966 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active/ HTTP/1.1" 400 120
+2022-02-01 11:47:50,970 ERROR :: Error while making GET request to /api/v1/instrument/active/: {'error': {'message': 'This request has expired - `expires` is in the past. Current time: 1643698070', 'name': 'HTTPError'}} (error code 400)
+2022-02-01 11:47:50,972 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-02-01 11:48:02,471 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin/?currency=all HTTP/1.1" 401 63
+2022-02-01 11:48:02,476 ERROR :: Error while making GET request to /api/v1/user/margin/: {'error': {'message': 'Signature not valid.', 'name': 'HTTPError'}} (error code 401)
+2022-02-01 11:48:02,476 INFO :: Bitmex Client successfully initialized
+2022-02-01 11:48:03,266 INFO :: Bitmex connection opened
+2022-02-01 11:48:23,791 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-02-01 11:48:24,287 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/ticker/bookTicker?symbol=DOGEUSDT HTTP/1.1" 200 None
+2022-02-01 11:49:14,154 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-02-01 11:49:15,153 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/klines?symbol=BTCUSDT&interval=1m&limit=1000 HTTP/1.1" 200 None

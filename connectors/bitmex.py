@@ -20,7 +20,6 @@ from models import *
 
 from strategies import TechnicalStrategy, BreakoutStrategy
 
-
 logger = logging.getLogger()
 
 
@@ -111,7 +110,7 @@ class BitmexClient:
 
     def get_contracts(self) -> typing.Dict[str, Contract]:
 
-        instruments = self._make_request("GET", "/api/v1/instrument/active", dict())
+        instruments = self._make_request("GET", "/api/v1/instrument/active/", dict())
 
         contracts = dict()
 
@@ -125,7 +124,7 @@ class BitmexClient:
         data = dict()
         data['currency'] = "all"
 
-        margin_data = self._make_request("GET", "/api/v1/user/margin", data)
+        margin_data = self._make_request("GET", "/api/v1/user/margin/", data)
 
         balances = dict()
 
@@ -156,7 +155,8 @@ class BitmexClient:
 
         return candles
 
-    def place_order(self, contract: Contract, order_type: str, quantity: int, side: str, price=None, tif=None) -> OrderStatus:
+    def place_order(self, contract: Contract, order_type: str, quantity: int, side: str, price=None,
+                    tif=None) -> OrderStatus:
         data = dict()
 
         data['symbol'] = contract.symbol
@@ -202,8 +202,11 @@ class BitmexClient:
                     return OrderStatus(order, "bitmex")
 
     def _start_ws(self):
-        self.ws = websocket.WebSocketApp(self._wss_url, on_open=self._on_open,
-                                         on_error=self._on_error, on_message=self._on_message)
+        self.ws = websocket.WebSocketApp(self._wss_url,
+                                         on_message= self._on_message,
+                                         on_error= self._on_error,
+                                         on_close= self._on_close,
+                                         on_open= self._on_open)
 
         while True:
             try:
@@ -221,11 +224,13 @@ class BitmexClient:
         self.subscribe_channel("instrument")
         self.subscribe_channel("trade")
 
+    def _on_close(self, ws, *args):
+        logger.warning("Bitmex Websocket connection closed")
 
     def _on_error(self, ws, msg: str):
         logger.error("Bitmex connection error: %s", msg)
 
-    def _on_message(self, ws, msg: str):
+    def _on_message(self, ws, msg):
 
         data = json.loads(msg)
 
@@ -260,9 +265,11 @@ class BitmexClient:
 
                                         if trade.contract.inverse:
                                             if trade.side == "long":
-                                                trade.pnl = (1 / trade.entry_price - 1 / price) * multiplier * trade.quantity
+                                                trade.pnl = (
+                                                                        1 / trade.entry_price - 1 / price) * multiplier * trade.quantity
                                             elif trade.side == "short":
-                                                trade.pnl = (1 / price - 1 / trade.entry_price) * multiplier * trade.quantity
+                                                trade.pnl = (
+                                                                        1 / price - 1 / trade.entry_price) * multiplier * trade.quantity
                                         else:
                                             if trade.side == "long":
                                                 trade.pnl = (price - trade.entry_price) * multiplier * trade.quantity
@@ -330,16 +337,3 @@ class BitmexClient:
         logger.info("Bitmex current XBT balance = %s, contracts number = %s", balance, contracts_number)
 
         return int(contracts_number)
-
-
-
-
-
-
-
-
-
-
-
-
-
